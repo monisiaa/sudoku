@@ -1,0 +1,9 @@
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\bin\Debug\Sudoku.exe.config
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\bin\Debug\Sudoku.exe
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\bin\Debug\Sudoku.pdb
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\obj\Debug\Sudoku.csprojResolveAssemblyReference.cache
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\obj\Debug\Sudoku.Form1.resources
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\obj\Debug\Sudoku.Properties.Resources.resources
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\obj\Debug\Sudoku.csproj.GenerateResource.Cache
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\obj\Debug\Sudoku.exe
+D:\STUDIA\Rok trzeci\Akademia C#\Projekt\Sudoku\obj\Debug\Sudoku.pdb
