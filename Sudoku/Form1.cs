@@ -28,9 +28,47 @@ namespace Sudoku
                 "3. Each digit can appear only once in each area 3x3. \n");
         }
 
+        private System.Windows.Forms.Button bEasy;
+        private System.Windows.Forms.Button bMedium;
+        private System.Windows.Forms.Button bHard;
+
         private void bStart_Click(object sender, EventArgs e)
         {
-
+            Form Levels = new Form();
+            Levels.Size = new System.Drawing.Size(284, 361);
+            Levels.Text = "Levels";
+            Levels.MaximizeBox = false;
+            this.bEasy = new Button()
+            {
+                Location = new System.Drawing.Point(65, 35),
+                Size = new System.Drawing.Size(132,62),
+                Name = "bEasy",
+                TabIndex = 1,
+                Text = "Easy",
+                UseVisualStyleBackColor = true
+            };
+            Levels.Controls.Add(this.bEasy);
+            this.bMedium = new Button()
+            {
+                Location = new System.Drawing.Point(65, 115),
+                Size = new System.Drawing.Size(132,62),
+                Name = "bMedium",
+                TabIndex = 1,
+                Text = "Medium",
+                UseVisualStyleBackColor = true
+            };
+            Levels.Controls.Add(this.bMedium);
+            this.bHard = new Button()
+            {
+                Location = new System.Drawing.Point(65, 195),
+                Size = new System.Drawing.Size(132, 62),
+                Name = "bHard",
+                TabIndex = 1,
+                Text = "Hard",
+                UseVisualStyleBackColor = true
+            };
+            Levels.Controls.Add(this.bHard);
+            Levels.ShowDialog();
         }
     }
 }

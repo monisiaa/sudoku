@@ -59,6 +59,7 @@
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.bStart);
             this.Controls.Add(this.bHow_Play);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Sudoku";
             this.ResumeLayout(false);
