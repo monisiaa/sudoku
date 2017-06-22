@@ -74,10 +74,890 @@ namespace Sudoku
             Levels.ShowDialog();
         }
 
+        #region[TextBox'es]
+        private TextBox field1;
+        private TextBox field2;
+        private TextBox field3;
+        private TextBox field4;
+        private TextBox field5;
+        private TextBox field6;
+        private TextBox field7;
+        private TextBox field8;
+        private TextBox field9;
+        private TextBox field10;
+        private TextBox field11;
+        private TextBox field12;
+        private TextBox field13;
+        private TextBox field14;
+        private TextBox field15;
+        private TextBox field16;
+        private TextBox field17;
+        private TextBox field18;
+        private TextBox field19;
+        private TextBox field20;
+        private TextBox field21;
+        private TextBox field22;
+        private TextBox field23;
+        private TextBox field24;
+        private TextBox field25;
+        private TextBox field26;
+        private TextBox field27;
+        private TextBox field28;
+        private TextBox field29;
+        private TextBox field30;
+        private TextBox field31;
+        private TextBox field32;
+        private TextBox field33;
+        private TextBox field34;
+        private TextBox field35;
+        private TextBox field36;
+        private TextBox field37;
+        private TextBox field38;
+        private TextBox field39;
+        private TextBox field40;
+        private TextBox field41;
+        private TextBox field42;
+        private TextBox field43;
+        private TextBox field44;
+        private TextBox field45;
+        private TextBox field46;
+        private TextBox field47;
+        private TextBox field48;
+        private TextBox field49;
+        private TextBox field50;
+        private TextBox field51;
+        private TextBox field52;
+        private TextBox field53;
+        private TextBox field54;
+        private TextBox field55;
+        private TextBox field56;
+        private TextBox field57;
+        private TextBox field58;
+        private TextBox field59;
+        private TextBox field60;
+        private TextBox field61;
+        private TextBox field62;
+        private TextBox field63;
+        private TextBox field64;
+        private TextBox field65;
+        private TextBox field66;
+        private TextBox field67;
+        private TextBox field68;
+        private TextBox field69;
+        private TextBox field70;
+        private TextBox field71;
+        private TextBox field72;
+        private TextBox field73;
+        private TextBox field74;
+        private TextBox field75;
+        private TextBox field76;
+        private TextBox field77;
+        private TextBox field78;
+        private TextBox field79;
+        private TextBox field80;
+        private TextBox field81;
+        #endregion
+
         private void bEasy_Click(object sender, EventArgs e)
         {
             Form Easy = new Form();
-            Easy.Size = new Size(500,500);
+            Easy.Size = new Size(900,700);
+            Easy.Text = "Easy level";
+
+            #region[Adding field's]
+            this.field1 = new TextBox()
+            {
+                Location = new Point(24, 21),
+                Multiline = true,
+                Name = "field1",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 0,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field1);
+            this.field2 = new TextBox()
+            {
+                Location = new Point(64, 21),
+                Multiline = true,
+                Name = "field2",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 1,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field2);
+            this.field3 = new TextBox()
+            {
+                Location = new Point(104, 21),
+                Multiline = true,
+                Name = "field3",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 2,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field3);
+            this.field4 = new TextBox()
+            {
+                Location = new Point(164, 21),
+                Multiline = true,
+                Name = "field4",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 3,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field4);
+            this.field5 = new TextBox()
+            {
+                Location = new Point(204, 21),
+                Multiline = true,
+                Name = "field5",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 4,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field5);
+            this.field6 = new TextBox()
+            {
+                Location = new Point(244, 21),
+                Multiline = true,
+                Name = "field6",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 5,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field6);
+            this.field7 = new TextBox()
+            {
+                Location = new Point(304, 21),
+                Multiline = true,
+                Name = "field7",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 6,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field7);
+            this.field8 = new TextBox()
+            {
+                Location = new Point(344, 21),
+                Multiline = true,
+                Name = "field8",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 7,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field8);
+            this.field9 = new TextBox()
+            {
+                Location = new Point(384, 21),
+                Multiline = true,
+                Name = "field9",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 8,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field9);
+            this.field10 = new TextBox()
+            {
+                Location = new Point(24, 61),
+                Multiline = true,
+                Name = "field10",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 9,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field10);
+            this.field11 = new TextBox()
+            {
+                Location = new Point(64, 61),
+                Multiline = true,
+                Name = "field11",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 10,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field11);
+            this.field12 = new TextBox()
+            {
+                Location = new Point(104, 61),
+                Multiline = true,
+                Name = "field12",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 11,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field12);
+            this.field13 = new TextBox()
+            {
+                Location = new Point(164, 61),
+                Multiline = true,
+                Name = "field13",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 12,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field13);
+            this.field14 = new TextBox()
+            {
+                Location = new Point(204, 61),
+                Multiline = true,
+                Name = "field14",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 13,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field14);
+            this.field15 = new TextBox()
+            {
+                Location = new Point(244, 61),
+                Multiline = true,
+                Name = "field15",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 14,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field15);
+            this.field16 = new TextBox()
+            {
+                Location = new Point(304, 61),
+                Multiline = true,
+                Name = "field16",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 15,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field16);
+            this.field17 = new TextBox()
+            {
+                Location = new Point(344, 61),
+                Multiline = true,
+                Name = "field17",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 16,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field17);
+            this.field18 = new TextBox()
+            {
+                Location = new Point(384, 61),
+                Multiline = true,
+                Name = "field18",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 17,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field18);
+            this.field19 = new TextBox()
+            {
+                Location = new Point(24, 101),
+                Multiline = true,
+                Name = "field19",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 18,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field19);
+            this.field20 = new TextBox()
+            {
+                Location = new Point(64, 101),
+                Multiline = true,
+                Name = "field20",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 19,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field20);
+            this.field21 = new TextBox()
+            {
+                Location = new Point(104, 101),
+                Multiline = true,
+                Name = "field21",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 20,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field21);
+            this.field22 = new TextBox()
+            {
+                Location = new Point(164, 101),
+                Multiline = true,
+                Name = "field22",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 21,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field22);
+            this.field23 = new TextBox()
+            {
+                Location = new Point(204, 101),
+                Multiline = true,
+                Name = "field23",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 22,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field23);
+            this.field24 = new TextBox()
+            {
+                Location = new Point(244, 101),
+                Multiline = true,
+                Name = "field24",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 23,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field24);
+            this.field25 = new TextBox()
+            {
+                Location = new Point(304, 101),
+                Multiline = true,
+                Name = "field25",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 24,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field25);
+            this.field26 = new TextBox()
+            {
+                Location = new Point(344, 101),
+                Multiline = true,
+                Name = "field26",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 25,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field26);
+            this.field27 = new TextBox()
+            {
+                Location = new Point(384, 101),
+                Multiline = true,
+                Name = "field27",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 26,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field27);
+            this.field28 = new TextBox()
+            {
+                Location = new Point(24, 161),
+                Multiline = true,
+                Name = "field28",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 27,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field28);
+            this.field29 = new TextBox()
+            {
+                Location = new Point(64, 161),
+                Multiline = true,
+                Name = "field29",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 28,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field29);
+            this.field30 = new TextBox()
+            {
+                Location = new Point(104, 161),
+                Multiline = true,
+                Name = "field30",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 29,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field30);
+            this.field31 = new TextBox()
+            {
+                Location = new Point(164, 161),
+                Multiline = true,
+                Name = "field31",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 30,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field31);
+            this.field32 = new TextBox()
+            {
+                Location = new Point(204, 161),
+                Multiline = true,
+                Name = "field32",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 31,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field32);
+            this.field33 = new TextBox()
+            {
+                Location = new Point(244, 161),
+                Multiline = true,
+                Name = "field33",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 32,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field33);
+            this.field34 = new TextBox()
+            {
+                Location = new Point(304, 161),
+                Multiline = true,
+                Name = "field34",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 33,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field34);
+            this.field35 = new TextBox()
+            {
+                Location = new Point(344, 161),
+                Multiline = true,
+                Name = "field35",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 34,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field35);
+            this.field36 = new TextBox()
+            {
+                Location = new Point(384, 161),
+                Multiline = true,
+                Name = "field36",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 35,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field36);
+            this.field37 = new TextBox()
+            {
+                Location = new Point(24, 201),
+                Multiline = true,
+                Name = "field37",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 36,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field37);
+            this.field38 = new TextBox()
+            {
+                Location = new Point(64, 201),
+                Multiline = true,
+                Name = "field38",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 37,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field38);
+            this.field39 = new TextBox()
+            {
+                Location = new Point(104, 201),
+                Multiline = true,
+                Name = "field39",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 38,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field39);
+            this.field40 = new TextBox()
+            {
+                Location = new Point(164, 201),
+                Multiline = true,
+                Name = "field40",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 39,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field40);
+            this.field41 = new TextBox()
+            {
+                Location = new Point(204, 201),
+                Multiline = true,
+                Name = "field41",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 40,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field41);
+            this.field42 = new TextBox()
+            {
+                Location = new Point(244, 201),
+                Multiline = true,
+                Name = "field42",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 41,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field42);
+            this.field43 = new TextBox()
+            {
+                Location = new Point(304, 201),
+                Multiline = true,
+                Name = "field43",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 42,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field43);
+            this.field44 = new TextBox()
+            {
+                Location = new Point(344, 201),
+                Multiline = true,
+                Name = "field44",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 43,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field44);
+            this.field45 = new TextBox()
+            {
+                Location = new Point(384, 201),
+                Multiline = true,
+                Name = "field45",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 44,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field45);
+            this.field46 = new TextBox()
+            {
+                Location = new Point(24, 241),
+                Multiline = true,
+                Name = "field46",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 45,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field46);
+            this.field47 = new TextBox()
+            {
+                Location = new Point(64, 241),
+                Multiline = true,
+                Name = "field47",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 46,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field47);
+            this.field48 = new TextBox()
+            {
+                Location = new Point(104, 241),
+                Multiline = true,
+                Name = "field48",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 47,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field48);
+            this.field49 = new TextBox()
+            {
+                Location = new Point(164, 241),
+                Multiline = true,
+                Name = "field49",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 48,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field49);
+            this.field50 = new TextBox()
+            {
+                Location = new Point(204, 241),
+                Multiline = true,
+                Name = "field50",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 49,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field50);
+            this.field51 = new TextBox()
+            {
+                Location = new Point(244, 241),
+                Multiline = true,
+                Name = "field51",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 50,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field51);
+            this.field52 = new TextBox()
+            {
+                Location = new Point(304, 241),
+                Multiline = true,
+                Name = "field52",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 51,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field52);
+            this.field53 = new TextBox()
+            {
+                Location = new Point(344, 241),
+                Multiline = true,
+                Name = "field53",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 52,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field53);
+            this.field54 = new TextBox()
+            {
+                Location = new Point(384, 241),
+                Multiline = true,
+                Name = "field54",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 53,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field54);
+            this.field55 = new TextBox()
+            {
+                Location = new Point(24, 301),
+                Multiline = true,
+                Name = "field55",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 54,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field55);
+            this.field56 = new TextBox()
+            {
+                Location = new Point(64, 301),
+                Multiline = true,
+                Name = "field56",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 55,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field56);
+            this.field57 = new TextBox()
+            {
+                Location = new Point(104, 301),
+                Multiline = true,
+                Name = "field57",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 56,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field57);
+            this.field58 = new TextBox()
+            {
+                Location = new Point(164, 301),
+                Multiline = true,
+                Name = "field58",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 57,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field58);
+            this.field59 = new TextBox()
+            {
+                Location = new Point(204, 301),
+                Multiline = true,
+                Name = "field59",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 58,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field59);
+            this.field60 = new TextBox()
+            {
+                Location = new Point(244, 301),
+                Multiline = true,
+                Name = "field60",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 59,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field60);
+            this.field61 = new TextBox()
+            {
+                Location = new Point(304, 301),
+                Multiline = true,
+                Name = "field61",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 60,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field61);
+            this.field62 = new TextBox()
+            {
+                Location = new Point(344, 301),
+                Multiline = true,
+                Name = "field62",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 61,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field62);
+            this.field63 = new TextBox()
+            {
+                Location = new Point(384, 301),
+                Multiline = true,
+                Name = "field63",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 62,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field63);
+            this.field64 = new TextBox()
+            {
+                Location = new Point(24, 341),
+                Multiline = true,
+                Name = "field64",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 63,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field64);
+            this.field65 = new TextBox()
+            {
+                Location = new Point(64, 341),
+                Multiline = true,
+                Name = "field65",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 64,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field65);
+            this.field66 = new TextBox()
+            {
+                Location = new Point(104, 341),
+                Multiline = true,
+                Name = "field66",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 65,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field66);
+            this.field67 = new TextBox()
+            {
+                Location = new Point(164, 341),
+                Multiline = true,
+                Name = "field67",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 66,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field67);
+            this.field68 = new TextBox()
+            {
+                Location = new Point(204, 341),
+                Multiline = true,
+                Name = "field68",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 67,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field68);
+            this.field69 = new TextBox()
+            {
+                Location = new Point(244, 341),
+                Multiline = true,
+                Name = "field69",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 68,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field69);
+            this.field70 = new TextBox()
+            {
+                Location = new Point(304, 341),
+                Multiline = true,
+                Name = "field70",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 69,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field70);
+            this.field71 = new TextBox()
+            {
+                Location = new Point(344, 341),
+                Multiline = true,
+                Name = "field71",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 70,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field71);
+            this.field72 = new TextBox()
+            {
+                Location = new Point(384, 341),
+                Multiline = true,
+                Name = "field72",
+                Size = new Size(32, 32),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                TabIndex = 71,
+                TextAlign = HorizontalAlignment.Center
+            };
+            Easy.Controls.Add(this.field72);
+            #endregion
             Easy.ShowDialog();
         }
 
@@ -85,6 +965,7 @@ namespace Sudoku
         {
             Form Medium = new Form();
             Medium.Size = new Size(500, 500);
+            Medium.Text = "Medium level";
             Medium.ShowDialog();
         }
 
@@ -92,6 +973,7 @@ namespace Sudoku
         {
             Form Hard = new Form();
             Hard.Size = new Size(500, 500);
+            Hard.Text = "Hard level";
             Hard.ShowDialog();
         }
     }
