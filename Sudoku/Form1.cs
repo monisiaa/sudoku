@@ -166,6 +166,18 @@ namespace Sudoku
         private TextBox field81;
         #endregion
 
+        private void check_number(object sender, EventArgs e)
+        {
+            if ((sender as TextBox).Text != "")
+            {
+                if ((sender as TextBox).Text[0] < '0' || (sender as TextBox).Text[0] > '9')
+                {
+                    MessageBox.Show("You can't write letters.");
+                    (sender as TextBox).Clear();
+                }
+            }
+        }
+
         private void bEasy_Click(object sender, EventArgs e)
         {
             Form Easy = new Form();
@@ -180,8 +192,9 @@ namespace Sudoku
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
                 TabIndex = 0,
-                TextAlign = HorizontalAlignment.Center
+                TextAlign = HorizontalAlignment.Center,
             };
+            field1.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field1);
             this.field2 = new TextBox()
             {
@@ -193,6 +206,7 @@ namespace Sudoku
                 TabIndex = 1,
                 TextAlign = HorizontalAlignment.Center
             };
+            field2.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field2);
             this.field3 = new TextBox()
             {
@@ -204,6 +218,7 @@ namespace Sudoku
                 TabIndex = 2,
                 TextAlign = HorizontalAlignment.Center
             };
+            field3.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field3);
             this.field4 = new TextBox()
             {
@@ -215,6 +230,7 @@ namespace Sudoku
                 TabIndex = 3,
                 TextAlign = HorizontalAlignment.Center
             };
+            field4.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field4);
             this.field5 = new TextBox()
             {
@@ -226,6 +242,7 @@ namespace Sudoku
                 TabIndex = 4,
                 TextAlign = HorizontalAlignment.Center
             };
+            field5.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field5);
             this.field6 = new TextBox()
             {
@@ -237,6 +254,7 @@ namespace Sudoku
                 TabIndex = 5,
                 TextAlign = HorizontalAlignment.Center
             };
+            field6.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field6);
             this.field7 = new TextBox()
             {
@@ -248,6 +266,7 @@ namespace Sudoku
                 TabIndex = 6,
                 TextAlign = HorizontalAlignment.Center
             };
+            field7.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field7);
             this.field8 = new TextBox()
             {
@@ -259,6 +278,7 @@ namespace Sudoku
                 TabIndex = 7,
                 TextAlign = HorizontalAlignment.Center
             };
+            field8.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field8);
             this.field9 = new TextBox()
             {
@@ -270,6 +290,7 @@ namespace Sudoku
                 TabIndex = 8,
                 TextAlign = HorizontalAlignment.Center
             };
+            field9.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field9);
             this.field10 = new TextBox()
             {
@@ -281,6 +302,7 @@ namespace Sudoku
                 TabIndex = 9,
                 TextAlign = HorizontalAlignment.Center
             };
+            field10.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field10);
             this.field11 = new TextBox()
             {
@@ -292,6 +314,7 @@ namespace Sudoku
                 TabIndex = 10,
                 TextAlign = HorizontalAlignment.Center
             };
+            field11.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field11);
             this.field12 = new TextBox()
             {
@@ -303,6 +326,7 @@ namespace Sudoku
                 TabIndex = 11,
                 TextAlign = HorizontalAlignment.Center
             };
+            field12.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field12);
             this.field13 = new TextBox()
             {
@@ -314,6 +338,7 @@ namespace Sudoku
                 TabIndex = 12,
                 TextAlign = HorizontalAlignment.Center
             };
+            field13.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field13);
             this.field14 = new TextBox()
             {
@@ -325,6 +350,7 @@ namespace Sudoku
                 TabIndex = 13,
                 TextAlign = HorizontalAlignment.Center
             };
+            field14.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field14);
             this.field15 = new TextBox()
             {
@@ -336,6 +362,7 @@ namespace Sudoku
                 TabIndex = 14,
                 TextAlign = HorizontalAlignment.Center
             };
+            field15.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field15);
             this.field16 = new TextBox()
             {
@@ -347,6 +374,7 @@ namespace Sudoku
                 TabIndex = 15,
                 TextAlign = HorizontalAlignment.Center
             };
+            field16.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field16);
             this.field17 = new TextBox()
             {
@@ -358,6 +386,7 @@ namespace Sudoku
                 TabIndex = 16,
                 TextAlign = HorizontalAlignment.Center
             };
+            field17.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field17);
             this.field18 = new TextBox()
             {
@@ -369,6 +398,7 @@ namespace Sudoku
                 TabIndex = 17,
                 TextAlign = HorizontalAlignment.Center
             };
+            field18.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field18);
             this.field19 = new TextBox()
             {
@@ -380,6 +410,7 @@ namespace Sudoku
                 TabIndex = 18,
                 TextAlign = HorizontalAlignment.Center
             };
+            field19.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field19);
             this.field20 = new TextBox()
             {
@@ -391,6 +422,7 @@ namespace Sudoku
                 TabIndex = 19,
                 TextAlign = HorizontalAlignment.Center
             };
+            field20.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field20);
             this.field21 = new TextBox()
             {
@@ -402,6 +434,7 @@ namespace Sudoku
                 TabIndex = 20,
                 TextAlign = HorizontalAlignment.Center
             };
+            field21.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field21);
             this.field22 = new TextBox()
             {
@@ -413,6 +446,7 @@ namespace Sudoku
                 TabIndex = 21,
                 TextAlign = HorizontalAlignment.Center
             };
+            field22.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field22);
             this.field23 = new TextBox()
             {
@@ -424,6 +458,7 @@ namespace Sudoku
                 TabIndex = 22,
                 TextAlign = HorizontalAlignment.Center
             };
+            field23.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field23);
             this.field24 = new TextBox()
             {
@@ -435,6 +470,7 @@ namespace Sudoku
                 TabIndex = 23,
                 TextAlign = HorizontalAlignment.Center
             };
+            field24.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field24);
             this.field25 = new TextBox()
             {
@@ -446,6 +482,7 @@ namespace Sudoku
                 TabIndex = 24,
                 TextAlign = HorizontalAlignment.Center
             };
+            field25.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field25);
             this.field26 = new TextBox()
             {
@@ -457,6 +494,7 @@ namespace Sudoku
                 TabIndex = 25,
                 TextAlign = HorizontalAlignment.Center
             };
+            field26.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field26);
             this.field27 = new TextBox()
             {
@@ -468,6 +506,7 @@ namespace Sudoku
                 TabIndex = 26,
                 TextAlign = HorizontalAlignment.Center
             };
+            field27.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field27);
             this.field28 = new TextBox()
             {
@@ -479,6 +518,7 @@ namespace Sudoku
                 TabIndex = 27,
                 TextAlign = HorizontalAlignment.Center
             };
+            field28.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field28);
             this.field29 = new TextBox()
             {
@@ -490,6 +530,7 @@ namespace Sudoku
                 TabIndex = 28,
                 TextAlign = HorizontalAlignment.Center
             };
+            field29.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field29);
             this.field30 = new TextBox()
             {
@@ -501,6 +542,7 @@ namespace Sudoku
                 TabIndex = 29,
                 TextAlign = HorizontalAlignment.Center
             };
+            field30.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field30);
             this.field31 = new TextBox()
             {
@@ -512,6 +554,7 @@ namespace Sudoku
                 TabIndex = 30,
                 TextAlign = HorizontalAlignment.Center
             };
+            field31.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field31);
             this.field32 = new TextBox()
             {
@@ -523,6 +566,7 @@ namespace Sudoku
                 TabIndex = 31,
                 TextAlign = HorizontalAlignment.Center
             };
+            field32.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field32);
             this.field33 = new TextBox()
             {
@@ -534,6 +578,7 @@ namespace Sudoku
                 TabIndex = 32,
                 TextAlign = HorizontalAlignment.Center
             };
+            field33.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field33);
             this.field34 = new TextBox()
             {
@@ -545,6 +590,7 @@ namespace Sudoku
                 TabIndex = 33,
                 TextAlign = HorizontalAlignment.Center
             };
+            field34.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field34);
             this.field35 = new TextBox()
             {
@@ -556,6 +602,7 @@ namespace Sudoku
                 TabIndex = 34,
                 TextAlign = HorizontalAlignment.Center
             };
+            field35.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field35);
             this.field36 = new TextBox()
             {
@@ -567,6 +614,7 @@ namespace Sudoku
                 TabIndex = 35,
                 TextAlign = HorizontalAlignment.Center
             };
+            field36.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field36);
             this.field37 = new TextBox()
             {
@@ -578,6 +626,7 @@ namespace Sudoku
                 TabIndex = 36,
                 TextAlign = HorizontalAlignment.Center
             };
+            field37.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field37);
             this.field38 = new TextBox()
             {
@@ -589,6 +638,7 @@ namespace Sudoku
                 TabIndex = 37,
                 TextAlign = HorizontalAlignment.Center
             };
+            field38.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field38);
             this.field39 = new TextBox()
             {
@@ -600,6 +650,7 @@ namespace Sudoku
                 TabIndex = 38,
                 TextAlign = HorizontalAlignment.Center
             };
+            field39.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field39);
             this.field40 = new TextBox()
             {
@@ -611,6 +662,7 @@ namespace Sudoku
                 TabIndex = 39,
                 TextAlign = HorizontalAlignment.Center
             };
+            field40.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field40);
             this.field41 = new TextBox()
             {
@@ -622,6 +674,7 @@ namespace Sudoku
                 TabIndex = 40,
                 TextAlign = HorizontalAlignment.Center
             };
+            field41.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field41);
             this.field42 = new TextBox()
             {
@@ -633,6 +686,7 @@ namespace Sudoku
                 TabIndex = 41,
                 TextAlign = HorizontalAlignment.Center
             };
+            field42.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field42);
             this.field43 = new TextBox()
             {
@@ -644,6 +698,7 @@ namespace Sudoku
                 TabIndex = 42,
                 TextAlign = HorizontalAlignment.Center
             };
+            field43.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field43);
             this.field44 = new TextBox()
             {
@@ -655,6 +710,7 @@ namespace Sudoku
                 TabIndex = 43,
                 TextAlign = HorizontalAlignment.Center
             };
+            field44.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field44);
             this.field45 = new TextBox()
             {
@@ -666,6 +722,7 @@ namespace Sudoku
                 TabIndex = 44,
                 TextAlign = HorizontalAlignment.Center
             };
+            field45.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field45);
             this.field46 = new TextBox()
             {
@@ -677,6 +734,7 @@ namespace Sudoku
                 TabIndex = 45,
                 TextAlign = HorizontalAlignment.Center
             };
+            field46.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field46);
             this.field47 = new TextBox()
             {
@@ -688,6 +746,7 @@ namespace Sudoku
                 TabIndex = 46,
                 TextAlign = HorizontalAlignment.Center
             };
+            field47.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field47);
             this.field48 = new TextBox()
             {
@@ -699,6 +758,7 @@ namespace Sudoku
                 TabIndex = 47,
                 TextAlign = HorizontalAlignment.Center
             };
+            field48.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field48);
             this.field49 = new TextBox()
             {
@@ -710,6 +770,7 @@ namespace Sudoku
                 TabIndex = 48,
                 TextAlign = HorizontalAlignment.Center
             };
+            field49.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field49);
             this.field50 = new TextBox()
             {
@@ -721,6 +782,7 @@ namespace Sudoku
                 TabIndex = 49,
                 TextAlign = HorizontalAlignment.Center
             };
+            field50.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field50);
             this.field51 = new TextBox()
             {
@@ -732,6 +794,7 @@ namespace Sudoku
                 TabIndex = 50,
                 TextAlign = HorizontalAlignment.Center
             };
+            field51.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field51);
             this.field52 = new TextBox()
             {
@@ -743,6 +806,7 @@ namespace Sudoku
                 TabIndex = 51,
                 TextAlign = HorizontalAlignment.Center
             };
+            field52.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field52);
             this.field53 = new TextBox()
             {
@@ -754,6 +818,7 @@ namespace Sudoku
                 TabIndex = 52,
                 TextAlign = HorizontalAlignment.Center
             };
+            field53.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field53);
             this.field54 = new TextBox()
             {
@@ -765,6 +830,7 @@ namespace Sudoku
                 TabIndex = 53,
                 TextAlign = HorizontalAlignment.Center
             };
+            field54.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field54);
             this.field55 = new TextBox()
             {
@@ -776,6 +842,7 @@ namespace Sudoku
                 TabIndex = 54,
                 TextAlign = HorizontalAlignment.Center
             };
+            field55.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field55);
             this.field56 = new TextBox()
             {
@@ -787,6 +854,7 @@ namespace Sudoku
                 TabIndex = 55,
                 TextAlign = HorizontalAlignment.Center
             };
+            field56.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field56);
             this.field57 = new TextBox()
             {
@@ -798,6 +866,7 @@ namespace Sudoku
                 TabIndex = 56,
                 TextAlign = HorizontalAlignment.Center
             };
+            field57.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field57);
             this.field58 = new TextBox()
             {
@@ -809,6 +878,7 @@ namespace Sudoku
                 TabIndex = 57,
                 TextAlign = HorizontalAlignment.Center
             };
+            field58.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field58);
             this.field59 = new TextBox()
             {
@@ -820,6 +890,7 @@ namespace Sudoku
                 TabIndex = 58,
                 TextAlign = HorizontalAlignment.Center
             };
+            field59.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field59);
             this.field60 = new TextBox()
             {
@@ -831,6 +902,7 @@ namespace Sudoku
                 TabIndex = 59,
                 TextAlign = HorizontalAlignment.Center
             };
+            field60.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field60);
             this.field61 = new TextBox()
             {
@@ -842,6 +914,7 @@ namespace Sudoku
                 TabIndex = 60,
                 TextAlign = HorizontalAlignment.Center
             };
+            field61.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field61);
             this.field62 = new TextBox()
             {
@@ -853,6 +926,7 @@ namespace Sudoku
                 TabIndex = 61,
                 TextAlign = HorizontalAlignment.Center
             };
+            field62.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field62);
             this.field63 = new TextBox()
             {
@@ -864,6 +938,7 @@ namespace Sudoku
                 TabIndex = 62,
                 TextAlign = HorizontalAlignment.Center
             };
+            field63.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field63);
             this.field64 = new TextBox()
             {
@@ -875,6 +950,7 @@ namespace Sudoku
                 TabIndex = 63,
                 TextAlign = HorizontalAlignment.Center
             };
+            field64.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field64);
             this.field65 = new TextBox()
             {
@@ -886,6 +962,7 @@ namespace Sudoku
                 TabIndex = 64,
                 TextAlign = HorizontalAlignment.Center
             };
+            field65.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field65);
             this.field66 = new TextBox()
             {
@@ -897,6 +974,7 @@ namespace Sudoku
                 TabIndex = 65,
                 TextAlign = HorizontalAlignment.Center
             };
+            field66.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field66);
             this.field67 = new TextBox()
             {
@@ -908,6 +986,7 @@ namespace Sudoku
                 TabIndex = 66,
                 TextAlign = HorizontalAlignment.Center
             };
+            field67.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field67);
             this.field68 = new TextBox()
             {
@@ -919,6 +998,7 @@ namespace Sudoku
                 TabIndex = 67,
                 TextAlign = HorizontalAlignment.Center
             };
+            field68.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field68);
             this.field69 = new TextBox()
             {
@@ -930,6 +1010,7 @@ namespace Sudoku
                 TabIndex = 68,
                 TextAlign = HorizontalAlignment.Center
             };
+            field69.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field69);
             this.field70 = new TextBox()
             {
@@ -941,6 +1022,7 @@ namespace Sudoku
                 TabIndex = 69,
                 TextAlign = HorizontalAlignment.Center
             };
+            field70.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field70);
             this.field71 = new TextBox()
             {
@@ -952,6 +1034,7 @@ namespace Sudoku
                 TabIndex = 70,
                 TextAlign = HorizontalAlignment.Center
             };
+            field71.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field71);
             this.field72 = new TextBox()
             {
@@ -963,6 +1046,7 @@ namespace Sudoku
                 TabIndex = 71,
                 TextAlign = HorizontalAlignment.Center
             };
+            field72.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field72);
             this.field73 = new TextBox()
             {
@@ -974,6 +1058,7 @@ namespace Sudoku
                 TabIndex = 72,
                 TextAlign = HorizontalAlignment.Center
             };
+            field73.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field73);
             this.field74 = new TextBox()
             {
@@ -985,6 +1070,7 @@ namespace Sudoku
                 TabIndex = 73,
                 TextAlign = HorizontalAlignment.Center
             };
+            field74.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field74);
             this.field75 = new TextBox()
             {
@@ -996,6 +1082,7 @@ namespace Sudoku
                 TabIndex = 74,
                 TextAlign = HorizontalAlignment.Center
             };
+            field75.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field75);
             this.field76 = new TextBox()
             {
@@ -1007,6 +1094,7 @@ namespace Sudoku
                 TabIndex = 75,
                 TextAlign = HorizontalAlignment.Center
             };
+            field76.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field76);
             this.field77 = new TextBox()
             {
@@ -1018,6 +1106,7 @@ namespace Sudoku
                 TabIndex = 76,
                 TextAlign = HorizontalAlignment.Center
             };
+            field77.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field77);
             this.field78 = new TextBox()
             {
@@ -1029,6 +1118,7 @@ namespace Sudoku
                 TabIndex = 77,
                 TextAlign = HorizontalAlignment.Center
             };
+            field78.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field78);
             this.field79 = new TextBox()
             {
@@ -1040,6 +1130,7 @@ namespace Sudoku
                 TabIndex = 78,
                 TextAlign = HorizontalAlignment.Center
             };
+            field79.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field79);
             this.field80 = new TextBox()
             {
@@ -1051,6 +1142,7 @@ namespace Sudoku
                 TabIndex = 79,
                 TextAlign = HorizontalAlignment.Center
             };
+            field80.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field80);
             this.field81 = new TextBox()
             {
@@ -1062,6 +1154,7 @@ namespace Sudoku
                 TabIndex = 80,
                 TextAlign = HorizontalAlignment.Center
             };
+            field81.TextChanged += new EventHandler(check_number);
             Easy.Controls.Add(this.field81);
             #endregion
             this.Sudoku_board = new TextBox[81];
@@ -1152,6 +1245,9 @@ namespace Sudoku
             {
                 BackColor = SystemColors.InactiveBorder,
                 Size = new Size(450, 450),
+                Name = "GroupBox1",
+                TabIndex = 87,
+                TabStop = false,
             };
             #region[GroupBox]
             GroupBox1.Controls.Add(this.field1);
@@ -2296,6 +2392,9 @@ namespace Sudoku
             {
                 BackColor = SystemColors.InactiveBorder,
                 Size = new Size(450, 450),
+                Name = "GroupBox1",
+                TabIndex = 87,
+                TabStop = false,
             };
             #region[GroupBox]
             GroupBox1.Controls.Add(this.field1);
@@ -3440,6 +3539,9 @@ namespace Sudoku
             {
                 BackColor = SystemColors.InactiveBorder,
                 Size = new Size(450, 450),
+                Name = "GroupBox1",
+                TabIndex = 87,
+                TabStop = false,
             };
             #region[GroupBox]
             GroupBox1.Controls.Add(this.field1);
