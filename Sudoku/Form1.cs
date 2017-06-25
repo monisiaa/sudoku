@@ -31,7 +31,13 @@ namespace Sudoku
         private Button bEasy;
         private Button bMedium;
         private Button bHard;
-
+        private Button bNew_Game;
+        private Button bCheck;
+        private Button bClear;
+        private Button bSolve;
+        private Button bHighlight;
+        private TextBox txHighlight;
+        
         private void bStart_Click(object sender, EventArgs e)
         {
             Form Levels = new Form();
@@ -161,7 +167,7 @@ namespace Sudoku
         private void bEasy_Click(object sender, EventArgs e)
         {
             Form Easy = new Form();
-            Easy.Size = new Size(700,500);
+            Easy.Size = new Size(700, 500);
             Easy.Text = "Easy level";
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -1055,6 +1061,74 @@ namespace Sudoku
                 TextAlign = HorizontalAlignment.Center
             };
             Easy.Controls.Add(this.field81);
+            #endregion
+            #region[Adding other buttons]
+            this.bNew_Game = new Button()
+            {
+                Location = new Point(497, 133),
+                Name = "bNew_Game",
+                Size = new Size(106, 30),
+                TabIndex = 81,
+                Text = "New Game",
+                UseVisualStyleBackColor = true,
+            };
+            bNew_Game.Click += new EventHandler(this.bNew_Game_Click);
+            Easy.Controls.Add(this.bNew_Game);
+            this.bCheck = new Button()
+            {
+                Location = new Point(497, 173),
+                Name = "bCheck",
+                Size = new Size(106, 30),
+                TabIndex = 82,
+                Text = "Check",
+                UseVisualStyleBackColor = true,
+            };
+            bCheck.Click += new EventHandler(this.bCheck_Click);
+            Easy.Controls.Add(this.bCheck);
+            this.bClear = new Button()
+            {
+                Location = new Point(497, 213),
+                Name = "bClear",
+                Size = new Size(106, 30),
+                TabIndex = 83,
+                Text = "Clear Board",
+                UseVisualStyleBackColor = true,
+            };
+            bClear.Click += new EventHandler(this.bClear_Click);
+            Easy.Controls.Add(this.bClear);
+            this.bSolve = new Button()
+            {
+                Location = new Point(497, 253),
+                Name = "bSolve",
+                Size = new Size(106, 30),
+                TabIndex = 84,
+                Text = "Solve Sudoku",
+                UseVisualStyleBackColor = true,
+            };
+            bSolve.Click += new EventHandler(this.bSolve_Click);
+            Easy.Controls.Add(this.bSolve);
+            this.bHighlight = new Button()
+            {
+                Location = new Point(497, 293),
+                Name = "bHighlight",
+                Size = new Size(106, 30),
+                TabIndex = 85,
+                Text = "Highlight",
+                UseVisualStyleBackColor = true,
+            };
+            bHighlight.Click += new EventHandler(this.bHighlight_Click);
+            Easy.Controls.Add(this.bHighlight);
+            this.txHighlight = new TextBox()
+            {
+                Location = new Point(617, 298),
+                MaxLength = 1,
+                Name = "txHighlight",
+                Size = new Size(30, 30),
+                TabIndex = 86,
+                Text = "1",
+                TextAlign = HorizontalAlignment.Center,
+            };
+            Easy.Controls.Add(this.txHighlight);
             #endregion
             Easy.ShowDialog();
         }
@@ -1957,6 +2031,74 @@ namespace Sudoku
             };
             Medium.Controls.Add(this.field81);
             #endregion
+            #region[Adding other buttons]
+            this.bNew_Game = new Button()
+            {
+                Location = new Point(497, 133),
+                Name = "bNew_Game",
+                Size = new Size(106, 30),
+                TabIndex = 81,
+                Text = "New Game",
+                UseVisualStyleBackColor = true,
+            };
+            bNew_Game.Click += new EventHandler(this.bNew_Game_Click);
+            Medium.Controls.Add(this.bNew_Game);
+            this.bCheck = new Button()
+            {
+                Location = new Point(497, 173),
+                Name = "bCheck",
+                Size = new Size(106, 30),
+                TabIndex = 82,
+                Text = "Check",
+                UseVisualStyleBackColor = true,
+            };
+            bCheck.Click += new EventHandler(this.bCheck_Click);
+            Medium.Controls.Add(this.bCheck);
+            this.bClear = new Button()
+            {
+                Location = new Point(497, 213),
+                Name = "bClear",
+                Size = new Size(106, 30),
+                TabIndex = 83,
+                Text = "Clear Board",
+                UseVisualStyleBackColor = true,
+            };
+            bClear.Click += new EventHandler(this.bClear_Click);
+            Medium.Controls.Add(this.bClear);
+            this.bSolve = new Button()
+            {
+                Location = new Point(497, 253),
+                Name = "bSolve",
+                Size = new Size(106, 30),
+                TabIndex = 84,
+                Text = "Solve Sudoku",
+                UseVisualStyleBackColor = true,
+            };
+            bSolve.Click += new EventHandler(this.bSolve_Click);
+            Medium.Controls.Add(this.bSolve);
+            this.bHighlight = new Button()
+            {
+                Location = new Point(497, 293),
+                Name = "bHighlight",
+                Size = new Size(106, 30),
+                TabIndex = 85,
+                Text = "Highlight",
+                UseVisualStyleBackColor = true,
+            };
+            bHighlight.Click += new EventHandler(this.bHighlight_Click);
+            Medium.Controls.Add(this.bHighlight);
+            this.txHighlight = new TextBox()
+            {
+                Location = new Point(617, 298),
+                MaxLength = 1,
+                Name = "txHighlight",
+                Size = new Size(30, 30),
+                TabIndex = 86,
+                Text = "1",
+                TextAlign = HorizontalAlignment.Center,
+            };
+            Medium.Controls.Add(this.txHighlight);
+            #endregion
             Medium.ShowDialog();
         }
 
@@ -2858,7 +3000,100 @@ namespace Sudoku
             };
             Hard.Controls.Add(this.field81);
             #endregion
+            #region[Adding other buttons]
+            this.bNew_Game = new Button()
+            {
+                Location = new Point(497, 133),
+                Name = "bNew_Game",
+                Size = new Size(106, 30),
+                TabIndex = 81,
+                Text = "New Game",
+                UseVisualStyleBackColor = true,
+            };
+            bNew_Game.Click += new EventHandler(this.bNew_Game_Click);
+            Hard.Controls.Add(this.bNew_Game);
+            this.bCheck = new Button()
+            {
+                Location = new Point(497, 173),
+                Name = "bCheck",
+                Size = new Size(106, 30),
+                TabIndex = 82,
+                Text = "Check",
+                UseVisualStyleBackColor = true,
+            };
+            bCheck.Click += new EventHandler(this.bCheck_Click);
+            Hard.Controls.Add(this.bCheck);
+            this.bClear = new Button()
+            {
+                Location = new Point(497, 213),
+                Name = "bClear",
+                Size = new Size(106, 30),
+                TabIndex = 83,
+                Text = "Clear Board",
+                UseVisualStyleBackColor = true,
+            };
+            bClear.Click += new EventHandler(this.bClear_Click);
+            Hard.Controls.Add(this.bClear);
+            this.bSolve = new Button()
+            {
+                Location = new Point(497, 253),
+                Name = "bSolve",
+                Size = new Size(106, 30),
+                TabIndex = 84,
+                Text = "Solve Sudoku",
+                UseVisualStyleBackColor = true,
+            };
+            bSolve.Click += new EventHandler(this.bSolve_Click);
+            Hard.Controls.Add(this.bSolve);
+            this.bHighlight = new Button()
+            {
+                Location = new Point(497, 293),
+                Name = "bHighlight",
+                Size = new Size(106, 30),
+                TabIndex = 85,
+                Text = "Highlight",
+                UseVisualStyleBackColor = true,
+            };
+            bHighlight.Click += new EventHandler(this.bHighlight_Click);
+            Hard.Controls.Add(this.bHighlight);
+            this.txHighlight = new TextBox()
+            {
+                Location = new Point(617, 298),
+                MaxLength = 1,
+                Name = "txHighlight",
+                Size = new Size(30, 30),
+                TabIndex = 86,
+                Text = "1",
+                TextAlign = HorizontalAlignment.Center,
+            };
+            Hard.Controls.Add(this.txHighlight);
+            #endregion
             Hard.ShowDialog();
+        }
+
+        private void bNew_Game_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bCheck_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bClear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bSolve_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bHighlight_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
