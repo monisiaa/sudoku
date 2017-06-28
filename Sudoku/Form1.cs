@@ -82,6 +82,43 @@ namespace Sudoku
             Levels.ShowDialog();
         }
 
+        #region[Easy level buttons]
+        private Button Easy_level1;
+        private Button Easy_level2;
+        private Button Easy_level3;
+        private Button Easy_level4;
+        private Button Easy_level5;
+        private Button Easy_level6;
+        private Button Easy_level7;
+        private Button Easy_level8;
+        private Button Easy_level9;
+        private Button Easy_level10;
+        #endregion
+        #region[Medium level buttons]
+        private Button Medium_level1;
+        private Button Medium_level2;
+        private Button Medium_level3;
+        private Button Medium_level4;
+        private Button Medium_level5;
+        private Button Medium_level6;
+        private Button Medium_level7;
+        private Button Medium_level8;
+        private Button Medium_level9;
+        private Button Medium_level10;
+        #endregion
+        #region[Hard level buttons]
+        private Button Hard_level1;
+        private Button Hard_level2;
+        private Button Hard_level3;
+        private Button Hard_level4;
+        private Button Hard_level5;
+        private Button Hard_level6;
+        private Button Hard_level7;
+        private Button Hard_level8;
+        private Button Hard_level9;
+        private Button Hard_level10;
+        #endregion
+
         #region[TextBox'es]
         private TextBox field1;
         private TextBox field2;
@@ -180,7 +217,104 @@ namespace Sudoku
 
         private void bEasy_Click(object sender, EventArgs e)
         {
-            Form Easy = new Form();
+            Form Easy_levels = new Form();
+            Easy_levels.Size = new Size(280, 270);
+            Easy_levels.Text = "Easy levels";
+            #region[Adding levels]
+            this.Easy_level1 = new Button()
+            {
+                Location = new Point(24,21),
+                Name = "level1",
+                Size = new Size(100,30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 1"
+            };
+            Easy_levels.Controls.Add(this.Easy_level1);
+            this.Easy_level2 = new Button()
+            {
+                Location = new Point(24, 61),
+                Name = "level2",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 2"
+            };
+            Easy_levels.Controls.Add(this.Easy_level2);
+            this.Easy_level3 = new Button()
+            {
+                Location = new Point(24, 101),
+                Name = "level3",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 3"
+            };
+            Easy_levels.Controls.Add(this.Easy_level3);
+            this.Easy_level4 = new Button()
+            {
+                Location = new Point(24, 141),
+                Name = "level4",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 4"
+            };
+            Easy_levels.Controls.Add(this.Easy_level4);
+            this.Easy_level5 = new Button()
+            {
+                Location = new Point(24, 181),
+                Name = "level5",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 5"
+            };
+            Easy_levels.Controls.Add(this.Easy_level5);
+            this.Easy_level6 = new Button()
+            {
+                Location = new Point(144, 21),
+                Name = "level6",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 6"
+            };
+            Easy_levels.Controls.Add(this.Easy_level6);
+            this.Easy_level7 = new Button()
+            {
+                Location = new Point(144, 61),
+                Name = "level7",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 7"
+            };
+            Easy_levels.Controls.Add(this.Easy_level7);
+            this.Easy_level8 = new Button()
+            {
+                Location = new Point(144, 101),
+                Name = "level8",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 8"
+            };
+            Easy_levels.Controls.Add(this.Easy_level8);
+            this.Easy_level9 = new Button()
+            {
+                Location = new Point(144, 141),
+                Name = "level9",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 9"
+            };
+            Easy_levels.Controls.Add(this.Easy_level9);
+            this.Easy_level10 = new Button()
+            {
+                Location = new Point(144, 181),
+                Name = "level10",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 10"
+            };
+            Easy_levels.Controls.Add(this.Easy_level10);
+            #endregion
+            Easy_levels.MaximizeBox = false;
+            Easy_levels.ShowDialog();
+            /*Form Easy = new Form();
             Easy.Size = new Size(700, 500);
             Easy.Text = "Easy level";
             #region[Adding field's]
@@ -1345,7 +1479,7 @@ namespace Sudoku
                 Text = "New Game",
                 UseVisualStyleBackColor = true,
             };
-            bNew_Game.Click += new EventHandler(this.bNew_Game_Click);
+            bNew_Game.Click += new EventHandler(this.bNew_Game_Easy_Click);
             Easy.Controls.Add(this.bNew_Game);
             this.bCheck = new Button()
             {
@@ -1403,12 +1537,109 @@ namespace Sudoku
             };
             Easy.Controls.Add(this.txHighlight);
             #endregion
-            Easy.ShowDialog();
+            Easy.ShowDialog();*/
         }
 
         private void bMedium_Click(object sender, EventArgs e)
         {
-            Form Medium = new Form();
+            Form Medium_levels = new Form();
+            Medium_levels.Size = new Size(280, 270);
+            Medium_levels.Text = "Easy levels";
+            #region[Adding levels]
+            this.Medium_level1 = new Button()
+            {
+                Location = new Point(24, 21),
+                Name = "level1",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 1"
+            };
+            Medium_levels.Controls.Add(this.Medium_level1);
+            this.Medium_level2 = new Button()
+            {
+                Location = new Point(24, 61),
+                Name = "level2",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 2"
+            };
+            Medium_levels.Controls.Add(this.Medium_level2);
+            this.Medium_level3 = new Button()
+            {
+                Location = new Point(24, 101),
+                Name = "level3",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 3"
+            };
+            Medium_levels.Controls.Add(this.Medium_level3);
+            this.Medium_level4 = new Button()
+            {
+                Location = new Point(24, 141),
+                Name = "level4",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 4"
+            };
+            Medium_levels.Controls.Add(this.Medium_level4);
+            this.Medium_level5 = new Button()
+            {
+                Location = new Point(24, 181),
+                Name = "level5",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 5"
+            };
+            Medium_levels.Controls.Add(this.Medium_level5);
+            this.Medium_level6 = new Button()
+            {
+                Location = new Point(144, 21),
+                Name = "level6",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 6"
+            };
+            Medium_levels.Controls.Add(this.Medium_level6);
+            this.Medium_level7 = new Button()
+            {
+                Location = new Point(144, 61),
+                Name = "level7",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 7"
+            };
+            Medium_levels.Controls.Add(this.Medium_level7);
+            this.Medium_level8 = new Button()
+            {
+                Location = new Point(144, 101),
+                Name = "level8",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 8"
+            };
+            Medium_levels.Controls.Add(this.Medium_level8);
+            this.Medium_level9 = new Button()
+            {
+                Location = new Point(144, 141),
+                Name = "level9",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 9"
+            };
+            Medium_levels.Controls.Add(this.Medium_level9);
+            this.Medium_level10 = new Button()
+            {
+                Location = new Point(144, 181),
+                Name = "level10",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 10"
+            };
+            Medium_levels.Controls.Add(this.Medium_level10);
+            #endregion
+            Medium_levels.MaximizeBox = false;
+            Medium_levels.ShowDialog();
+            /*Form Medium = new Form();
             Medium.Size = new Size(700, 500);
             Medium.Text = "Medium level";
             #region[Adding field's]
@@ -2560,8 +2791,6 @@ namespace Sudoku
             GroupBox1.Controls.Add(this.field80);
             GroupBox1.Controls.Add(this.field81);
             #endregion
-            //this.GroupBox1.SuspendLayout();
-            //this.SuspendLayout();
             Medium.Controls.Add(this.GroupBox1);
             #region[Adding other buttons]
             this.bNew_Game = new Button()
@@ -2631,12 +2860,109 @@ namespace Sudoku
             };
             Medium.Controls.Add(this.txHighlight);
             #endregion
-            Medium.ShowDialog();
+            Medium.ShowDialog();*/
         }
 
         private void bHard_Click(object sender, EventArgs e)
         {
-            Form Hard = new Form();
+            Form Hard_levels = new Form();
+            Hard_levels.Size = new Size(280, 270);
+            Hard_levels.Text = "Easy levels";
+            #region[Adding levels]
+            this.Hard_level1 = new Button()
+            {
+                Location = new Point(24, 21),
+                Name = "level1",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 1"
+            };
+            Hard_levels.Controls.Add(this.Hard_level1);
+            this.Hard_level2 = new Button()
+            {
+                Location = new Point(24, 61),
+                Name = "level2",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 2"
+            };
+            Hard_levels.Controls.Add(this.Hard_level2);
+            this.Hard_level3 = new Button()
+            {
+                Location = new Point(24, 101),
+                Name = "level3",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 3"
+            };
+            Hard_levels.Controls.Add(this.Hard_level3);
+            this.Hard_level4 = new Button()
+            {
+                Location = new Point(24, 141),
+                Name = "level4",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 4"
+            };
+            Hard_levels.Controls.Add(this.Hard_level4);
+            this.Hard_level5 = new Button()
+            {
+                Location = new Point(24, 181),
+                Name = "level5",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 5"
+            };
+            Hard_levels.Controls.Add(this.Hard_level5);
+            this.Hard_level6 = new Button()
+            {
+                Location = new Point(144, 21),
+                Name = "level6",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 6"
+            };
+            Hard_levels.Controls.Add(this.Hard_level6);
+            this.Hard_level7 = new Button()
+            {
+                Location = new Point(144, 61),
+                Name = "level7",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 7"
+            };
+            Hard_levels.Controls.Add(this.Hard_level7);
+            this.Hard_level8 = new Button()
+            {
+                Location = new Point(144, 101),
+                Name = "level8",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 8"
+            };
+            Hard_levels.Controls.Add(this.Hard_level8);
+            this.Hard_level9 = new Button()
+            {
+                Location = new Point(144, 141),
+                Name = "level9",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 9"
+            };
+            Hard_levels.Controls.Add(this.Hard_level9);
+            this.Hard_level10 = new Button()
+            {
+                Location = new Point(144, 181),
+                Name = "level10",
+                Size = new Size(100, 30),
+                Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "Level 10"
+            };
+            Hard_levels.Controls.Add(this.Hard_level10);
+            #endregion
+            Hard_levels.MaximizeBox = false;
+            Hard_levels.ShowDialog();
+            /*Form Hard = new Form();
             Hard.Size = new Size(700, 500);
             Hard.Text = "Hard level";
             #region[Adding field's]
@@ -3788,8 +4114,6 @@ namespace Sudoku
             GroupBox1.Controls.Add(this.field80);
             GroupBox1.Controls.Add(this.field81);
             #endregion
-            //this.GroupBox1.SuspendLayout();
-            //this.SuspendLayout();
             Hard.Controls.Add(this.GroupBox1);
             #region[Adding other buttons]
             this.bNew_Game = new Button()
@@ -3859,17 +4183,86 @@ namespace Sudoku
             };
             Hard.Controls.Add(this.txHighlight);
             #endregion
-            Hard.ShowDialog();
+            Hard.ShowDialog();*/
         }
 
         private void bNew_Game_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void bCheck_Click(object sender, EventArgs e)
         {
 
+        }
+        
+        public int check_no_empty()
+        {
+            for (int i=0; i<81; i++)
+            {
+                if (Sudoku_board[i].Text == " ")
+                {
+                    return 0;
+                }
+            }
+            return 1;
+        }
+
+        private void check_it_well()
+        {
+            if (check_no_empty() == 1)
+            {
+                int[,] lines = new int[9, 9];
+                for(int i=0, help; i<9; i++)
+                {
+                    for(int j=0; j<9; j++)
+                    {
+                        help = (9 * i) + j;
+                        if(Sudoku_board[help].Text != "")
+                        {
+                            lines[i, j] = Convert.ToInt32(Sudoku_board[help].Text);
+                        }
+                        else
+                        {
+                            lines[i,j] = 0;
+                        }
+                    }
+                }
+
+                int[,] columns = new int[9, 9];
+                for(int i=0, help; i<9; i++)
+                {
+                    for(int j=0; j<9; j++)
+                    {
+                        help = (9 * j) + i;
+                        if(Sudoku_board[help].Text != "")
+                        {
+                            columns[i, j] = Convert.ToInt32(Sudoku_board[help].Text);
+                        }
+                        else
+                        {
+                            columns[i, j] = 0;
+                        }
+                    }
+                }
+
+                int[,] squares = new int[9, 9];
+                for(int i=0, help; i<9; i++)
+                {
+                    for(int j=0; j<9; j++)
+                    {
+                        help = ((int)(i / 3) * 27) + 3 * (i % 3) + (j % 3) + ((int)(j / 3) * 9);
+                        if(Sudoku_board[help].Text != "")
+                        {
+                            squares[i, j] = Convert.ToInt32(Sudoku_board[help].Text);
+                        }
+                        else
+                        {
+                            squares[i, j] = 0;
+                        }
+                    }
+                }
+            }
         }
 
         private void bClear_Click(object sender, EventArgs e)
