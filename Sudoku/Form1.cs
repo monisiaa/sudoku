@@ -324,7 +324,6 @@ namespace Sudoku
             Easy_levels.MaximizeBox = false;
             Easy_levels.ShowDialog();
         }
-
         #region[Easy Clicks]
         private void Easy_level1_Click(object sender, EventArgs e)
         {
@@ -1551,7 +1550,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 2"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -2769,7 +2768,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 3"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -3987,7 +3986,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 4"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -5205,7 +5204,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 5"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -6423,7 +6422,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 6"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -7641,7 +7640,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 7"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -8859,7 +8858,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 8"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -10077,7 +10076,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 9"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -11295,7 +11294,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 10"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -12618,7 +12617,6 @@ namespace Sudoku
             Medium_levels.MaximizeBox = false;
             Medium_levels.ShowDialog();
         }
-
         #region[Medium Clicks]
         private void Medium_level1_Click(object sender, EventArgs e)
         {
@@ -13845,7 +13843,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 2"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -15063,7 +15061,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 3"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -16281,7 +16279,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 4"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -17499,7 +17497,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 5"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -18717,7 +18715,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 6"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -19935,7 +19933,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 7"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -21153,7 +21151,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 8"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -22371,7 +22369,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 9"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -23589,7 +23587,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 10"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -24912,7 +24910,6 @@ namespace Sudoku
             Hard_levels.MaximizeBox = false;
             Hard_levels.ShowDialog();
         }
-
         #region[Hard Clicks]
         private void Hard_level1_Click(object sender, EventArgs e)
         {
@@ -26139,7 +26136,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 2"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -27357,7 +27354,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 3"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -28575,7 +28572,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 4"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -29793,7 +29790,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 5"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -31011,7 +31008,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 6"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -32229,7 +32226,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 7"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -33447,7 +33444,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 8"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -34665,7 +34662,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 9"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -35883,7 +35880,7 @@ namespace Sudoku
                 MaximizeBox = false,
                 Size = new Size(700, 500),
                 Name = "Easy1",
-                Text = "Level 1"
+                Text = "Level 10"
             };
             #region[Adding field's]
             this.field1 = new TextBox()
@@ -37182,7 +37179,17 @@ namespace Sudoku
 
         private void bHighlight_Click(object sender, EventArgs e)
         {
-
+            for (int i = 0; i < 81; i++)
+            {
+                if (Sudoku_board[i].Text == txHighlight.Text)
+                {
+                    Sudoku_board[i].BackColor = Color.Aqua;
+                }
+                else
+                {
+                    Sudoku_board[i].BackColor = Color.White;
+                }
+            }
         }
     }
 }
