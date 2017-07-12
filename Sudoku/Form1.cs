@@ -4200,6 +4200,8 @@ namespace Sudoku
                 Name = "field1",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 0,
                 TextAlign = HorizontalAlignment.Center,
             };
@@ -4236,6 +4238,8 @@ namespace Sudoku
                 Name = "field4",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 3,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4260,6 +4264,8 @@ namespace Sudoku
                 Name = "field6",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 5,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4272,6 +4278,8 @@ namespace Sudoku
                 Name = "field7",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 6,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4296,6 +4304,8 @@ namespace Sudoku
                 Name = "field9",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 8,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4368,6 +4378,8 @@ namespace Sudoku
                 Name = "field15",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 14,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4392,6 +4404,8 @@ namespace Sudoku
                 Name = "field17",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 16,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4404,6 +4418,8 @@ namespace Sudoku
                 Name = "field18",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 17,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4440,6 +4456,8 @@ namespace Sudoku
                 Name = "field21",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 20,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4464,6 +4482,8 @@ namespace Sudoku
                 Name = "field23",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 22,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4488,6 +4508,8 @@ namespace Sudoku
                 Name = "field25",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 24,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4524,6 +4546,8 @@ namespace Sudoku
                 Name = "field28",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 27,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4548,6 +4572,8 @@ namespace Sudoku
                 Name = "field30",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 29,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4572,6 +4598,8 @@ namespace Sudoku
                 Name = "field32",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 31,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4596,6 +4624,8 @@ namespace Sudoku
                 Name = "field34",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 33,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4620,6 +4650,8 @@ namespace Sudoku
                 Name = "field36",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 35,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4644,6 +4676,8 @@ namespace Sudoku
                 Name = "field38",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 37,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4716,6 +4750,8 @@ namespace Sudoku
                 Name = "field44",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 43,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4740,6 +4776,8 @@ namespace Sudoku
                 Name = "field46",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 45,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4764,6 +4802,8 @@ namespace Sudoku
                 Name = "field48",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 47,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4788,6 +4828,8 @@ namespace Sudoku
                 Name = "field50",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 49,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4812,6 +4854,8 @@ namespace Sudoku
                 Name = "field52",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 51,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4836,6 +4880,8 @@ namespace Sudoku
                 Name = "field54",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 53,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4872,6 +4918,8 @@ namespace Sudoku
                 Name = "field57",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 56,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4896,6 +4944,8 @@ namespace Sudoku
                 Name = "field59",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 58,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4920,6 +4970,8 @@ namespace Sudoku
                 Name = "field61",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 60,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4956,6 +5008,8 @@ namespace Sudoku
                 Name = "field64",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 63,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4968,6 +5022,8 @@ namespace Sudoku
                 Name = "field65",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 64,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -4992,6 +5048,8 @@ namespace Sudoku
                 Name = "field67",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 66,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5064,6 +5122,8 @@ namespace Sudoku
                 Name = "field73",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 72,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5088,6 +5148,8 @@ namespace Sudoku
                 Name = "field75",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 74,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5100,6 +5162,8 @@ namespace Sudoku
                 Name = "field76",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 75,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5124,6 +5188,8 @@ namespace Sudoku
                 Name = "field78",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 77,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5160,6 +5226,8 @@ namespace Sudoku
                 Name = "field81",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 80,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5418,6 +5486,8 @@ namespace Sudoku
                 Name = "field1",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 0,
                 TextAlign = HorizontalAlignment.Center,
             };
@@ -5466,6 +5536,8 @@ namespace Sudoku
                 Name = "field5",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 4,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5514,6 +5586,8 @@ namespace Sudoku
                 Name = "field9",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 8,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5526,6 +5600,8 @@ namespace Sudoku
                 Name = "field10",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 9,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5550,6 +5626,8 @@ namespace Sudoku
                 Name = "field12",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 11,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5562,6 +5640,8 @@ namespace Sudoku
                 Name = "field13",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 12,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5586,6 +5666,8 @@ namespace Sudoku
                 Name = "field15",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 14,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5598,6 +5680,8 @@ namespace Sudoku
                 Name = "field16",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 15,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5646,6 +5730,8 @@ namespace Sudoku
                 Name = "field20",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 19,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5658,6 +5744,8 @@ namespace Sudoku
                 Name = "field21",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 20,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5670,6 +5758,8 @@ namespace Sudoku
                 Name = "field22",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 21,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5742,6 +5832,8 @@ namespace Sudoku
                 Name = "field28",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 27,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5766,6 +5858,8 @@ namespace Sudoku
                 Name = "field30",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 29,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5790,6 +5884,8 @@ namespace Sudoku
                 Name = "field32",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 31,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5814,6 +5910,8 @@ namespace Sudoku
                 Name = "field34",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 33,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5838,6 +5936,8 @@ namespace Sudoku
                 Name = "field36",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 35,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5862,6 +5962,8 @@ namespace Sudoku
                 Name = "field38",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 37,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5934,6 +6036,8 @@ namespace Sudoku
                 Name = "field44",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 43,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5958,6 +6062,8 @@ namespace Sudoku
                 Name = "field46",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 45,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -5982,6 +6088,8 @@ namespace Sudoku
                 Name = "field48",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 47,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6006,6 +6114,8 @@ namespace Sudoku
                 Name = "field50",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 49,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6030,6 +6140,8 @@ namespace Sudoku
                 Name = "field52",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 51,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6054,6 +6166,8 @@ namespace Sudoku
                 Name = "field54",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 53,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6126,6 +6240,8 @@ namespace Sudoku
                 Name = "field60",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 59,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6138,6 +6254,8 @@ namespace Sudoku
                 Name = "field61",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 60,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6150,6 +6268,8 @@ namespace Sudoku
                 Name = "field62",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 61,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6198,6 +6318,8 @@ namespace Sudoku
                 Name = "field66",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 65,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6210,6 +6332,8 @@ namespace Sudoku
                 Name = "field67",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 66,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6234,6 +6358,8 @@ namespace Sudoku
                 Name = "field69",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 68,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6246,6 +6372,8 @@ namespace Sudoku
                 Name = "field70",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 69,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6270,6 +6398,8 @@ namespace Sudoku
                 Name = "field72",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 71,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6282,6 +6412,8 @@ namespace Sudoku
                 Name = "field73",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 72,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6330,6 +6462,8 @@ namespace Sudoku
                 Name = "field77",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 76,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6378,6 +6512,8 @@ namespace Sudoku
                 Name = "field81",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 80,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6636,6 +6772,8 @@ namespace Sudoku
                 Name = "field1",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 0,
                 TextAlign = HorizontalAlignment.Center,
             };
@@ -6648,6 +6786,8 @@ namespace Sudoku
                 Name = "field2",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 1,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6672,6 +6812,8 @@ namespace Sudoku
                 Name = "field4",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 3,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6744,6 +6886,8 @@ namespace Sudoku
                 Name = "field10",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 9,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6768,6 +6912,8 @@ namespace Sudoku
                 Name = "field12",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 11,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6780,6 +6926,8 @@ namespace Sudoku
                 Name = "field13",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 12,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6804,6 +6952,8 @@ namespace Sudoku
                 Name = "field15",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 14,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6840,6 +6990,8 @@ namespace Sudoku
                 Name = "field18",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 17,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6876,6 +7028,8 @@ namespace Sudoku
                 Name = "field21",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 20,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6900,6 +7054,8 @@ namespace Sudoku
                 Name = "field23",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 22,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6924,6 +7080,8 @@ namespace Sudoku
                 Name = "field25",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 24,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6960,6 +7118,8 @@ namespace Sudoku
                 Name = "field28",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 27,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -6984,6 +7144,8 @@ namespace Sudoku
                 Name = "field30",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 29,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7008,6 +7170,8 @@ namespace Sudoku
                 Name = "field32",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 31,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7032,6 +7196,8 @@ namespace Sudoku
                 Name = "field34",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 33,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7056,6 +7222,8 @@ namespace Sudoku
                 Name = "field36",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 35,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7080,6 +7248,8 @@ namespace Sudoku
                 Name = "field38",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 37,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7152,6 +7322,8 @@ namespace Sudoku
                 Name = "field44",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 43,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7176,6 +7348,8 @@ namespace Sudoku
                 Name = "field46",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 45,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7200,6 +7374,8 @@ namespace Sudoku
                 Name = "field48",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 47,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7224,6 +7400,8 @@ namespace Sudoku
                 Name = "field50",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 49,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7248,6 +7426,8 @@ namespace Sudoku
                 Name = "field52",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 51,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7272,6 +7452,8 @@ namespace Sudoku
                 Name = "field54",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 53,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7308,6 +7490,8 @@ namespace Sudoku
                 Name = "field57",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 56,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7332,6 +7516,8 @@ namespace Sudoku
                 Name = "field59",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 58,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7356,6 +7542,8 @@ namespace Sudoku
                 Name = "field61",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 60,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7392,6 +7580,8 @@ namespace Sudoku
                 Name = "field64",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 63,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7428,6 +7618,8 @@ namespace Sudoku
                 Name = "field67",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 66,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7452,6 +7644,8 @@ namespace Sudoku
                 Name = "field69",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 68,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7464,6 +7658,8 @@ namespace Sudoku
                 Name = "field70",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 69,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7488,6 +7684,8 @@ namespace Sudoku
                 Name = "field72",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 71,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7560,6 +7758,8 @@ namespace Sudoku
                 Name = "field78",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 77,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7584,6 +7784,8 @@ namespace Sudoku
                 Name = "field80",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 79,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7596,6 +7798,8 @@ namespace Sudoku
                 Name = "field81",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 80,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7878,6 +8082,8 @@ namespace Sudoku
                 Name = "field3",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 2,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7890,6 +8096,8 @@ namespace Sudoku
                 Name = "field4",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 3,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7914,6 +8122,8 @@ namespace Sudoku
                 Name = "field6",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 5,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7926,6 +8136,8 @@ namespace Sudoku
                 Name = "field7",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 6,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -7950,6 +8162,8 @@ namespace Sudoku
                 Name = "field9",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 8,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8022,6 +8236,8 @@ namespace Sudoku
                 Name = "field15",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 14,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8034,6 +8250,8 @@ namespace Sudoku
                 Name = "field16",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 15,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8046,6 +8264,8 @@ namespace Sudoku
                 Name = "field17",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 16,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8070,6 +8290,8 @@ namespace Sudoku
                 Name = "field19",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 18,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8118,6 +8340,8 @@ namespace Sudoku
                 Name = "field23",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 22,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8166,6 +8390,8 @@ namespace Sudoku
                 Name = "field27",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 26,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8178,6 +8404,8 @@ namespace Sudoku
                 Name = "field28",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 27,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8202,6 +8430,8 @@ namespace Sudoku
                 Name = "field30",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 29,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8226,6 +8456,8 @@ namespace Sudoku
                 Name = "field32",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 31,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8250,6 +8482,8 @@ namespace Sudoku
                 Name = "field34",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 33,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8274,6 +8508,8 @@ namespace Sudoku
                 Name = "field36",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 35,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8298,6 +8534,8 @@ namespace Sudoku
                 Name = "field38",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 37,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8370,6 +8608,8 @@ namespace Sudoku
                 Name = "field44",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 43,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8394,6 +8634,8 @@ namespace Sudoku
                 Name = "field46",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 45,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8418,6 +8660,8 @@ namespace Sudoku
                 Name = "field48",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 47,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8442,6 +8686,8 @@ namespace Sudoku
                 Name = "field50",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 49,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8466,6 +8712,8 @@ namespace Sudoku
                 Name = "field52",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 51,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8490,6 +8738,8 @@ namespace Sudoku
                 Name = "field54",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 53,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8502,6 +8752,8 @@ namespace Sudoku
                 Name = "field55",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 54,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8550,6 +8802,8 @@ namespace Sudoku
                 Name = "field59",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 58,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8598,6 +8852,8 @@ namespace Sudoku
                 Name = "field63",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 62,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8622,6 +8878,8 @@ namespace Sudoku
                 Name = "field65",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 64,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8634,6 +8892,8 @@ namespace Sudoku
                 Name = "field66",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 65,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8646,6 +8906,8 @@ namespace Sudoku
                 Name = "field67",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 66,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8718,6 +8980,8 @@ namespace Sudoku
                 Name = "field73",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 72,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8742,6 +9006,8 @@ namespace Sudoku
                 Name = "field75",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 74,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8754,6 +9020,8 @@ namespace Sudoku
                 Name = "field76",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 75,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8778,6 +9046,8 @@ namespace Sudoku
                 Name = "field78",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 77,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -8790,6 +9060,8 @@ namespace Sudoku
                 Name = "field79",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 78,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9072,6 +9344,8 @@ namespace Sudoku
                 Name = "field1",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 0,
                 TextAlign = HorizontalAlignment.Center,
             };
@@ -9120,6 +9394,8 @@ namespace Sudoku
                 Name = "field5",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 4,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9168,6 +9444,8 @@ namespace Sudoku
                 Name = "field9",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 8,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9204,6 +9482,8 @@ namespace Sudoku
                 Name = "field12",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 11,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9216,6 +9496,8 @@ namespace Sudoku
                 Name = "field13",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 12,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9240,6 +9522,8 @@ namespace Sudoku
                 Name = "field15",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 14,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9252,6 +9536,8 @@ namespace Sudoku
                 Name = "field16",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 15,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9276,6 +9562,8 @@ namespace Sudoku
                 Name = "field18",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 17,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9348,6 +9636,8 @@ namespace Sudoku
                 Name = "field24",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 23,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9360,6 +9650,8 @@ namespace Sudoku
                 Name = "field25",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 24,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9372,6 +9664,8 @@ namespace Sudoku
                 Name = "field26",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 25,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9396,6 +9690,8 @@ namespace Sudoku
                 Name = "field28",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 27,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9420,6 +9716,8 @@ namespace Sudoku
                 Name = "field30",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 29,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9444,6 +9742,8 @@ namespace Sudoku
                 Name = "field32",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 31,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9468,6 +9768,8 @@ namespace Sudoku
                 Name = "field34",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 33,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9492,6 +9794,8 @@ namespace Sudoku
                 Name = "field36",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 35,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9516,6 +9820,8 @@ namespace Sudoku
                 Name = "field38",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 37,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9588,6 +9894,8 @@ namespace Sudoku
                 Name = "field44",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 43,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9612,6 +9920,8 @@ namespace Sudoku
                 Name = "field46",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 45,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9636,6 +9946,8 @@ namespace Sudoku
                 Name = "field48",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 47,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9660,6 +9972,8 @@ namespace Sudoku
                 Name = "field50",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 49,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9684,6 +9998,8 @@ namespace Sudoku
                 Name = "field52",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 51,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9708,6 +10024,8 @@ namespace Sudoku
                 Name = "field54",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 53,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9732,6 +10050,8 @@ namespace Sudoku
                 Name = "field56",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 55,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9744,6 +10064,8 @@ namespace Sudoku
                 Name = "field57",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 56,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9756,6 +10078,8 @@ namespace Sudoku
                 Name = "field58",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 57,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9828,6 +10152,8 @@ namespace Sudoku
                 Name = "field64",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 63,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9852,6 +10178,8 @@ namespace Sudoku
                 Name = "field66",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 65,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9864,6 +10192,8 @@ namespace Sudoku
                 Name = "field67",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 66,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9888,6 +10218,8 @@ namespace Sudoku
                 Name = "field69",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 68,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9900,6 +10232,8 @@ namespace Sudoku
                 Name = "field70",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 69,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9936,6 +10270,8 @@ namespace Sudoku
                 Name = "field73",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 72,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -9984,6 +10320,8 @@ namespace Sudoku
                 Name = "field77",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 76,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10032,6 +10370,8 @@ namespace Sudoku
                 Name = "field81",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 80,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10302,6 +10642,8 @@ namespace Sudoku
                 Name = "field2",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 1,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10338,6 +10680,8 @@ namespace Sudoku
                 Name = "field5",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 4,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10410,6 +10754,8 @@ namespace Sudoku
                 Name = "field11",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 10,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10422,6 +10768,8 @@ namespace Sudoku
                 Name = "field12",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 11,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10434,6 +10782,8 @@ namespace Sudoku
                 Name = "field13",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 12,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10458,6 +10808,8 @@ namespace Sudoku
                 Name = "field15",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 14,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10470,6 +10822,8 @@ namespace Sudoku
                 Name = "field16",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 15,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10506,6 +10860,8 @@ namespace Sudoku
                 Name = "field19",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 18,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10530,6 +10886,8 @@ namespace Sudoku
                 Name = "field21",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 20,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10542,6 +10900,8 @@ namespace Sudoku
                 Name = "field22",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 21,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10566,6 +10926,8 @@ namespace Sudoku
                 Name = "field24",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 23,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10602,6 +10964,8 @@ namespace Sudoku
                 Name = "field27",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 26,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10626,6 +10990,8 @@ namespace Sudoku
                 Name = "field29",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 28,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10638,6 +11004,8 @@ namespace Sudoku
                 Name = "field30",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 29,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10686,6 +11054,8 @@ namespace Sudoku
                 Name = "field34",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 33,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10722,6 +11092,8 @@ namespace Sudoku
                 Name = "field37",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 36,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10758,6 +11130,8 @@ namespace Sudoku
                 Name = "field40",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 39,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10782,6 +11156,8 @@ namespace Sudoku
                 Name = "field42",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 41,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10818,6 +11194,8 @@ namespace Sudoku
                 Name = "field45",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 44,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10854,6 +11232,8 @@ namespace Sudoku
                 Name = "field48",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 47,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10902,6 +11282,8 @@ namespace Sudoku
                 Name = "field52",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 51,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10914,6 +11296,8 @@ namespace Sudoku
                 Name = "field53",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 52,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10938,6 +11322,8 @@ namespace Sudoku
                 Name = "field55",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 54,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10974,6 +11360,8 @@ namespace Sudoku
                 Name = "field58",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 57,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -10998,6 +11386,8 @@ namespace Sudoku
                 Name = "field60",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 59,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11010,6 +11400,8 @@ namespace Sudoku
                 Name = "field61",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 60,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11034,6 +11426,8 @@ namespace Sudoku
                 Name = "field63",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 62,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11070,6 +11464,8 @@ namespace Sudoku
                 Name = "field66",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 65,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11082,6 +11478,8 @@ namespace Sudoku
                 Name = "field67",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 66,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11106,6 +11504,8 @@ namespace Sudoku
                 Name = "field69",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 68,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11118,6 +11518,8 @@ namespace Sudoku
                 Name = "field70",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 69,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11130,6 +11532,8 @@ namespace Sudoku
                 Name = "field71",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 70,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11202,6 +11606,8 @@ namespace Sudoku
                 Name = "field77",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 76,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11238,6 +11644,8 @@ namespace Sudoku
                 Name = "field80",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 79,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11520,6 +11928,8 @@ namespace Sudoku
                 Name = "field2",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 1,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11532,6 +11942,8 @@ namespace Sudoku
                 Name = "field3",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 2,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11544,6 +11956,8 @@ namespace Sudoku
                 Name = "field4",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 3,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11616,6 +12030,8 @@ namespace Sudoku
                 Name = "field10",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 9,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11628,6 +12044,8 @@ namespace Sudoku
                 Name = "field11",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 10,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11652,6 +12070,8 @@ namespace Sudoku
                 Name = "field13",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 12,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11676,6 +12096,8 @@ namespace Sudoku
                 Name = "field15",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 14,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11700,6 +12122,8 @@ namespace Sudoku
                 Name = "field17",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 16,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11724,6 +12148,8 @@ namespace Sudoku
                 Name = "field19",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 18,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11772,6 +12198,8 @@ namespace Sudoku
                 Name = "field23",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 22,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11820,6 +12248,8 @@ namespace Sudoku
                 Name = "field27",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text= "4",
+                Enabled = false,
                 TabIndex = 26,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11832,6 +12262,8 @@ namespace Sudoku
                 Name = "field28",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 27,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11844,6 +12276,8 @@ namespace Sudoku
                 Name = "field29",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 28,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11880,6 +12314,8 @@ namespace Sudoku
                 Name = "field32",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 31,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11916,6 +12352,8 @@ namespace Sudoku
                 Name = "field35",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "6",
+                Enabled = false,
                 TabIndex = 34,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11928,6 +12366,8 @@ namespace Sudoku
                 Name = "field36",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 35,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -11964,6 +12404,8 @@ namespace Sudoku
                 Name = "field39",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 38,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12012,6 +12454,8 @@ namespace Sudoku
                 Name = "field43",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 42,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12048,6 +12492,8 @@ namespace Sudoku
                 Name = "field46",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 45,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12060,6 +12506,8 @@ namespace Sudoku
                 Name = "field47",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 46,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12096,6 +12544,8 @@ namespace Sudoku
                 Name = "field50",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 49,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12132,6 +12582,8 @@ namespace Sudoku
                 Name = "field53",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 52,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12144,6 +12596,8 @@ namespace Sudoku
                 Name = "field54",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "9",
+                Enabled = false,
                 TabIndex = 53,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12156,6 +12610,8 @@ namespace Sudoku
                 Name = "field55",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 54,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12204,6 +12660,8 @@ namespace Sudoku
                 Name = "field59",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "7",
+                Enabled = false,
                 TabIndex = 58,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12252,6 +12710,8 @@ namespace Sudoku
                 Name = "field63",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 62,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12276,6 +12736,8 @@ namespace Sudoku
                 Name = "field65",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 64,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12300,6 +12762,8 @@ namespace Sudoku
                 Name = "field67",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "3",
+                Enabled = false,
                 TabIndex = 66,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12324,6 +12788,8 @@ namespace Sudoku
                 Name = "field69",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 68,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12348,6 +12814,8 @@ namespace Sudoku
                 Name = "field71",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "4",
+                Enabled = false,
                 TabIndex = 70,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12360,6 +12828,8 @@ namespace Sudoku
                 Name = "field72",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "1",
+                Enabled = false,
                 TabIndex = 71,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12432,6 +12902,8 @@ namespace Sudoku
                 Name = "field78",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "5",
+                Enabled = false,
                 TabIndex = 77,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12444,6 +12916,8 @@ namespace Sudoku
                 Name = "field79",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "8",
+                Enabled = false,
                 TabIndex = 78,
                 TextAlign = HorizontalAlignment.Center
             };
@@ -12456,6 +12930,8 @@ namespace Sudoku
                 Name = "field80",
                 Size = new Size(32, 32),
                 Font = new Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238))),
+                Text = "2",
+                Enabled = false,
                 TabIndex = 79,
                 TextAlign = HorizontalAlignment.Center
             };
