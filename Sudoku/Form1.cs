@@ -12,11 +12,12 @@ namespace Sudoku
 {
     public partial class Form1 : Form
     {
+        public TextBox[] Sudoku_board;
+
         public Form1()
         {
             InitializeComponent();
         }
-
         private void bHow_Play_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Sudoku is played on 9x9 board divided into 3x3 smaller areas. " +
@@ -28,7 +29,6 @@ namespace Sudoku
                 "3. Each digit can appear only once in each area 3x3. \n");
         }
 
-        public TextBox[] Sudoku_board;
         private Button bEasy;
         private Button bMedium;
         private Button bHard;
@@ -38989,15 +38989,15 @@ namespace Sudoku
                             end = 1;
                             break;
                         }
-                        if (end == 1)
-                        {
-                            break;
-                        }
                     }
-                    if (end != 1)
+                    if (end == 1)
                     {
-                        MessageBox.Show("You did it! Congratulations! Sudoku solved correct!!!");
+                        break;
                     }
+                }
+                if (end != 1)
+                {
+                    MessageBox.Show("You did it! Congratulations! Sudoku solved correct!!!");
                 }
             }
             else
@@ -39022,7 +39022,668 @@ namespace Sudoku
 
         private void bSolve_Click(object sender, EventArgs e)
         {
+            while (solve() == 1) ;
+            if (check_no_empty() == 0)
+            {
+                MessageBox.Show("I'm sorry, but I can't do this.");
+            }
+            else
+            {
+                check_it_well();
+            }
+        }
 
+        public int solve()
+        {
+            try
+            {
+                int[,] table_lines = new int[9, 9];
+                #region[create table of lines]
+                for (int i = 0, temp; i < 9; i++)
+                {
+                    for (int j = 0; j < 9; j++)
+                    {
+                        temp = (9 * i) + j;
+                        if (Sudoku_board[temp].Text != "")
+                        {
+                            table_lines[i, j] = Convert.ToInt32(Sudoku_board[temp].Text);
+                        }
+                        else
+                        {
+                            table_lines[i, j] = 0;
+                        }
+                    }
+
+                }
+                #endregion
+
+                int[,] table_columns = new int[9, 9];
+                #region[create table of columns]
+                for (int i = 0, temp; i < 9; i++)
+                {
+                    for (int j = 0; j < 9; j++)
+                    {
+                        temp = (9 * j) + i;
+                        if (Sudoku_board[temp].Text != "")
+                        {
+                            table_columns[i, j] = Convert.ToInt32(Sudoku_board[temp].Text);
+                        }
+                        else
+                        {
+                            table_columns[i, j] = 0;
+                        }
+                    }
+                }
+                #endregion
+
+                int[,] table_squares = new int[9, 9];
+                #region[create table of squares]
+                for (int i = 0, temp; i < 9; i++)
+                {
+                    for (int j = 0; j < 9; j++)
+                    {
+                        temp = ((int)(i / 3) * 27) + 3 * (i % 3) + (j % 3) + ((int)(j / 3) * 9);
+                        if (Sudoku_board[temp].Text != "")
+                        {
+                            table_squares[i, j] = Convert.ToInt32(Sudoku_board[temp].Text);
+                        }
+                        else
+                        {
+                            table_squares[i, j] = 0;
+                        }
+                    }
+                }
+                #endregion
+
+                int[,,] table_means = new int[9, 9, 9];
+                for (int i = 0; i < 9; i++)
+                {
+                    for (int j = 0; j < 9; j++)
+                    {
+                        for (int k = 0; k < 9; k++)
+                        {
+                            table_means[i, j, k] = 0;
+                        }
+
+                    }
+                }
+
+                for (int i = 0; i < 81; i++)
+                {
+                    if (Sudoku_board[i].Text == "")
+                    {
+                        int number_line = (int)(i / 9);
+                        int number_column = i % 9;
+                        int number_square = ((3 * (i / 27)) + (i - (i / 9) * 9) / 3);
+                        int which_line = 0;
+                        int which_column = 0;
+                        int which_square = 0;
+                        int[] missing_number_of_line = new int[9];
+
+                        #region[missing numbers in lines]
+                        for (int z = 0; z < 9; z++)
+                        {
+                            missing_number_of_line[z] = 0;
+                        }
+                        which_line = 0;
+                        for (int z = 0; z < 9; z++)
+                        {
+                            for (int qw = 0, leave = 0; qw < 9 && leave < 1; qw++)
+                            {
+                                if (table_lines[number_line, qw] == z + 1)
+                                {
+                                    leave = 1;
+                                }
+                                if (qw == 8 && leave == 0)
+                                {
+                                    missing_number_of_line[which_line] = z + 1;
+                                    which_line++;
+                                }
+                            }
+                            if (z == 8 && which_line == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_line[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_l[0]);
+#endif */
+                                return 1;
+                            }
+                        }
+                        #endregion
+                        #region[missing number in columns]
+                        int[] missing_number_of_columns = new int[9];
+                        for (int z = 0; z < 9; z++)
+                        {
+                            missing_number_of_columns[z] = 0;
+                        }
+                        which_column = 0;
+                        for (int z = 0; z < 9; z++)
+                        {
+                            for (int qw = 0, leave = 0; qw < 9 && leave < 1; qw++)
+                            {
+                                if (table_columns[number_column, qw] == z + 1)
+                                {
+                                    leave = 1;
+                                }
+                                if (qw == 8 && leave == 0)
+                                {
+                                    missing_number_of_columns[which_column] = z + 1;
+                                    which_column++;
+                                }
+                            }
+                            if (z == 8 && which_column == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_columns[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_k[0]);
+#endif */
+                                return 1;
+                            }
+                        }
+                        #endregion
+                        #region[missing number in squares]
+                        int[] missing_number_of_squares = new int[9];
+                        for (int z = 0; z < 9; z++)
+                        {
+                            missing_number_of_squares[z] = 0;
+                        }
+                        which_square = 0;
+                        for (int z = 0; z < 9; z++)
+                        {
+                            for (int qw = 0, leave = 0; qw < 9 && leave < 1; qw++)
+                            {
+                                if (table_squares[number_square, qw] == z + 1)
+                                {
+                                    leave = 1;
+                                }
+                                if (qw == 8 && leave == 0)
+                                {
+                                    missing_number_of_squares[which_square] = z + 1;
+                                    which_square++;
+                                }
+                            }
+                            if (z == 8 && which_square == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_squares[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_kw[0]);
+#endif */
+                                return 1;
+                            }
+                        }
+                        #endregion
+
+                        #region[common part table_lines and table_columns]
+                        int number_common = 0;
+
+                        int[] missing_number_of_lines_and_columns = new int[9];
+                        for (int z = 0; z < 9; z++)
+                        {
+                            missing_number_of_lines_and_columns[z] = 0;
+                        }
+                        if (which_column >= which_line)
+                        {
+                            for (int ii = 0; ii < which_column; ii++)
+                            {
+                                for (int j = 0; j < which_line; j++)
+                                {
+                                    if (missing_number_of_columns[ii] == missing_number_of_line[j])
+                                    {
+                                        missing_number_of_lines_and_columns[number_common] = missing_number_of_columns[ii];
+                                        number_common++;
+                                    }
+                                }
+                            }
+                            if (number_common == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_lines_and_columns[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_lik[0].ToString());
+#endif */
+                                return 1;
+                            }
+                        }
+                        else
+                        {
+                            for (int ii = 0; ii < which_line; ii++)
+                            {
+                                for (int j = 0; j < which_column; j++)
+                                {
+                                    if (missing_number_of_line[ii] == missing_number_of_columns[j])
+                                    {
+                                        missing_number_of_lines_and_columns[number_common] = missing_number_of_line[ii];
+                                        number_common++;
+                                    }
+                                }
+                            }
+                            if (number_common == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_lines_and_columns[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_lik[0].ToString());
+#endif */
+                                return 1;
+                            }
+                        }
+                        #endregion
+                        #region[common part table_lines, table_columns and table+squares]
+                        int number_common2 = 0;
+                        int[] common = new int[9];
+                        for (int z = 0; z < 9; z++)
+                        {
+                            common[z] = 0;
+                        }
+                        if (which_square >= number_common)
+                        {
+                            for (int ii = 0; ii < which_square; ii++)
+                            {
+                                for (int j = 0; j < number_common + 1; j++)
+                                {
+                                    if (missing_number_of_squares[ii] == missing_number_of_lines_and_columns[j])
+                                    {
+                                        common[number_common2] = missing_number_of_squares[ii];
+                                        number_common2++;
+                                    }
+                                }
+                            }
+                            if (number_common2 == 1)
+                            {
+                                Sudoku_board[i].Text = common[0].ToString();
+/* #if debug
+                                MessageBox.Show(" 22 w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + wspolna_liczba[0].ToString());
+#endif */
+                                return 1;
+                            }
+                            else
+                            {
+                                for (int temp = 0; temp < 9; temp++)
+                                {
+                                    table_means[number_line, number_column, temp] = common[temp];
+                                }
+                            }
+                        }
+                        else
+                        {
+                            for (int ii = 0; ii < number_common + 1; ii++)
+                            {
+                                for (int j = 0; j < which_square + 1; j++)
+                                {
+                                    if (missing_number_of_lines_and_columns[ii] == missing_number_of_squares[j])
+                                    {
+                                        common[number_common2] = missing_number_of_lines_and_columns[ii];
+                                        number_common2++;
+                                    }
+                                }
+                            }
+                            if (number_common2 == 1)
+                            {
+                                Sudoku_board[i].Text = common[0].ToString();
+/* #if debug
+                                MessageBox.Show(" 23 w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + wspolna_liczba[0].ToString());
+#endif */
+                                return 1;
+                            }
+                            else
+                            {
+                                for (int temp = 0; temp < 9; temp++)
+                                {
+                                    table_means[number_line, number_column, temp] = common[temp];
+                                }
+                            }
+                        }
+                        #endregion
+
+                        #region[compare lines and squares]
+                        number_common = 0;
+                        int[] missing_number_of_lines_and_squares = new int[9];
+                        for (int z = 0; z < 9; z++)
+                        {
+                            missing_number_of_lines_and_squares[z] = 0;
+                        }
+                        if (which_square >= which_line)
+                        {
+                            for (int ii = 0; ii < which_square; ii++)
+                            {
+                                for (int j = 0; j < which_line; j++)
+                                {
+                                    if (missing_number_of_squares[ii] == missing_number_of_line[j])
+                                    {
+                                        missing_number_of_lines_and_squares[number_common] = missing_number_of_squares[ii];
+                                        number_common++;
+                                    }
+                                }
+                            }
+                            if (number_common == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_lines_and_squares[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_likw[0].ToString());
+#endif */
+                                return 1;
+                            }
+                        }
+                        else
+                        {
+                            for (int ii = 0; ii < which_line; ii++)
+                            {
+                                for (int j = 0; j < which_square; j++)
+                                {
+                                    if (missing_number_of_line[ii] == missing_number_of_squares[j])
+                                    {
+                                        missing_number_of_lines_and_squares[number_common] = missing_number_of_line[ii];
+                                        number_common++;
+                                    }
+                                }
+                            }
+                            if (number_common == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_lines_and_squares[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_likw[0].ToString());
+#endif */
+                                return 1;
+                            }
+                        }
+                        #endregion
+
+                        #region[common part table_columns and table_squares]
+                        number_common = 0;
+                        int[] missing_number_of_columns_and_squares = new int[9];
+                        for (int z = 0; z < 9; z++)
+                        {
+                            missing_number_of_columns_and_squares[z] = 0;
+                        }
+                        if (which_column >= which_square)
+                        {
+                            for (int ii = 0; ii < which_column; ii++)
+                            {
+                                for (int j = 0; j < which_square; j++)
+                                {
+                                    if (missing_number_of_columns[ii] == missing_number_of_squares[j])
+                                    {
+                                        missing_number_of_columns_and_squares[number_common] = missing_number_of_columns[ii];
+                                        number_common++;
+                                    }
+                                }
+                            }
+                            if (number_common == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_columns_and_squares[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_kikw[0].ToString());
+#endif */
+                                return 1;
+                            }
+                        }
+                        else
+                        {
+                            for (int ii = 0; ii < which_square; ii++)
+                            {
+                                for (int j = 0; j < which_column; j++)
+                                {
+                                    if (missing_number_of_squares[ii] == missing_number_of_columns[j])
+                                    {
+                                        missing_number_of_columns_and_squares[number_common] = missing_number_of_squares[ii];
+                                        number_common++;
+                                    }
+                                }
+                            }
+                            if (number_common == 1)
+                            {
+                                Sudoku_board[i].Text = missing_number_of_columns_and_squares[0].ToString();
+/* #if debug
+                                MessageBox.Show("w polu nr: " + i.ToString() + " nalezy wpisac liczbe " + brakujace_liczby_kikw[0].ToString());
+#endif */
+                                return 1;
+                            }
+                        }
+                        #endregion
+                    }
+
+                }
+
+                #region[check lines]
+                int[] bufor = new int[81];
+                for (int z = 0; z < 81; z++)
+                {
+                    bufor[z] = 0;
+                }
+                int line = 0;
+                int column = 0;
+                int square = 0;
+                for (line = 0; line < 9; line++)
+                {
+                    for (column = 0; column < 9; column++)
+                    {
+                        int which = 9 * line + column;
+                        if (Sudoku_board[which].Text == "")
+                        {
+                            for (int z = 0; z < 9; z++)
+                            {
+                                bufor[column * 9 + z] = table_means[line, column, z];
+                            }
+                        }
+                    }
+                    int correct_number = 0;
+                    int founded = 0;
+                    Array.Sort(bufor);
+                    for (int z = 0, i = 0, variable = 0, previous = 0; z < 81; z++)
+                    {
+                        variable = bufor[z];
+                        if (variable == previous)
+                        {
+                            i++;
+                        }
+                        else
+                        {
+
+                            if (i == 0)
+                            {
+                                founded = 1;
+                                correct_number = previous;
+                            }
+                            if (founded == 1)
+                            {
+                                break;
+                            }
+                            previous = variable;
+                            i = 0;
+
+                        }
+
+                    }
+                    if (bufor[79] != bufor[80])
+                    {
+                        founded = 1;
+                        correct_number = bufor[80];
+                    }
+                    if (founded == 1)
+                    {
+                        for (column = 0; column < 9; column++)
+                        {
+                            int which = 9 * line + column;
+                            if (Sudoku_board[which].Text == "")
+                            {
+                                for (int z = 0; z < 9; z++)
+                                {
+                                    if (table_means[line, column, z] == correct_number)
+                                    {
+                                        Sudoku_board[which].Text = correct_number.ToString();
+/* #if debug
+                                        MessageBox.Show("znalazlem !!  "  + ktora.ToString() + "  " + wlasciwa_liczba.ToString());
+#endif */
+                                        return 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #endregion
+                #region[check columns]
+                for (int z = 0; z < 81; z++)
+                {
+                    bufor[z] = 0;
+                }
+                line = 0;
+                column = 0;
+                square = 0;
+                for (column = 0; column < 9; column++)
+                {
+                    for (line = 0; line < 9; line++)
+                    {
+                        int which = 9 * line + column;
+                        if (Sudoku_board[which].Text == "")
+                        {
+                            for (int z = 0; z < 9; z++)
+                            {
+                                bufor[line * 9 + z] = table_means[line, column, z];
+                            }
+                        }
+                    }
+                    int correct_number = 0;
+                    int founded = 0;
+                    Array.Sort(bufor);
+                    for (int z = 0, i = 0, variable = 0, previous = 0; z < 81; z++)
+                    {
+                        variable = bufor[z];
+                        if (variable == previous)
+                        {
+                            i++;
+                        }
+                        else
+                        {
+
+                            if (i == 0)
+                            {
+                                founded = 1;
+                                correct_number = previous;
+                            }
+                            if (founded == 1)
+                            {
+                                break;
+                            }
+                            previous = variable;
+                            i = 0;
+
+                        }
+
+                    }
+                    if (bufor[79] != bufor[80])
+                    {
+                        founded = 1;
+                        correct_number = bufor[80];
+                    }
+                    if (founded == 1)
+                    {
+                        for (line = 0; line < 9; line++)
+                        {
+                            int which = 9 * line + column;
+                            if (Sudoku_board[which].Text == "")
+                            {
+                                for (int z = 0; z < 9; z++)
+                                {
+                                    if (table_means[line, column, z] == correct_number)
+                                    {
+                                        Sudoku_board[which].Text = correct_number.ToString();
+/* #if debug
+                                        MessageBox.Show("znalazlem w kolumnach !!  " + ktora.ToString() + "  " + wlasciwa_liczba.ToString());
+#endif */
+                                        return 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #endregion
+                #region[check squares]
+                for (int z = 0; z < 81; z++)
+                {
+                    bufor[z] = 0;
+                }
+                line = 0;
+                column = 0;
+                square = 0;
+                for (square = 0; square < 9; square++)
+                {
+                    for (int variable = 0; variable < 9; variable++)
+                    {
+                        line = (int)(square / 3) * 3 + (variable / 3);
+                        column = (square % 3) * 3 + (variable % 3);
+                        int which = 9 * line + column;
+                        if (Sudoku_board[which].Text == "")
+                        {
+                            for (int z = 0; z < 9; z++)
+                            {
+                                bufor[variable * 9 + z] = table_means[line, column, z];
+                            }
+                        }
+                    }
+                    int correct_number = 0;
+                    int founded = 0;
+                    Array.Sort(bufor);
+                    for (int z = 0, i = 0, variable = 0, previous = 0; z < 81; z++)
+                    {
+                        variable = bufor[z];
+                        if (variable == previous)
+                        {
+                            i++;
+                        }
+                        else
+                        {
+                            if (i == 0)
+                            {
+                                founded = 1;
+                                correct_number = previous;
+                            }
+                            if (founded == 1)
+                            {
+                                break;
+                            }
+                            previous = variable;
+                            i = 0;
+                        }
+
+                    }
+                    if (bufor[79] != bufor[80])
+                    {
+                        founded = 1;
+                        correct_number = bufor[80];
+                    }
+                    if (founded == 1)
+                    {
+                        for (int variable = 0; variable < 9; variable++)
+                        {
+                            line = (int)(square / 3) * 3 + (variable / 3);
+                            column = (square % 3) * 3 + (variable % 3);
+
+                            int which = 9 * line + column;
+                            if (Sudoku_board[which].Text == "")
+                            {
+                                for (int z = 0; z < 9; z++)
+                                {
+                                    if (table_means[line, column, z] == correct_number)
+                                    {
+                                        Sudoku_board[which].Text = correct_number.ToString();
+/* #if debug
+                                        MessageBox.Show("znalazlem w kwadratach !!  " + ktora.ToString() + "  " + wlasciwa_liczba.ToString());
+#endif */
+                                        return 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                #endregion
+
+            }
+            catch
+            {
+                MessageBox.Show("An error occurred, the field contains invalid characters, or it is empty.");
+            }
+            return 0;
         }
 
         private void bHighlight_Click(object sender, EventArgs e)
