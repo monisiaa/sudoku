@@ -6,3 +6,23 @@ również z przycisków: Check, Clear Board, Solve Sudoku, Highlight (z polem te
 zadaniem jest sprawdzenie czy plansza została poprawnie rozwiązana. Clear Board - czyści całą planszę z tego, co napisał użytkownik. 
 Solve Sudoku - korzysta z funkcji, która rozwiązuje sudoku (solve). Kiedy wpiszemy liczbę od 1 do 9 w okienku tekstowym obok przycisku 
 Highlight, a następnie go klikniemy, w grze podświetlą się nam wszystkie wpisane liczby. 
+
+Na poczatku kodu deklarujemy utworzenie tablicy textboxów "Sudoku_board", dokładną funkcjonalność przycisku "How play", gdzie wyskoczy 
+nam Message Box z informacją dla użytkownika. Następnie deklarujemy kolejne przyciski, których będziemy używać oraz textbox i groupBox.
+Dalej mamy funkcjonalność przycisku Start, gdzie znajduje się nowy formularz "Levels", do którego dodajemy przyciski "Easy", "Medium" 
+i "Hard". Kolejno zostały utworzone trzy regiony (dla przejrzystości kodu), w których zawarta jest deklaracja przycisków z planszami dla 
+poszczególnych poziomów. Czwarty region to przypisanie to deklaracja pól tekstowych będących polami planszy. Potem mamy funkcję, która sprawdza
+czy wprowadzona przez użytkownika wartość jest liczbą z zakresu 1-9, w przeciwnym razie wyświetla komunikat. Ta funkcja zostaje potem dodana
+do każdego pola. Dalej mamy funkcjonalność przycisku Easy, do którego dodajemy przyciski z 10 planszami. Po niej został utworzony region, 
+w którym dodajemy funkcjonalności przycisków z planszami. Tworzymy formularz, do którego dodajemy pola (81) i część z nich jest już wypełniona
+i w nich użytkownik nie może już nic wpisać. Również dołączamy do tego formularza tablice TextBoxów złożoną właśnie z tych pól oraz tworzymy 
+z tych pól GroupBoxa. W regionie dołączamy inne przyciski takie jak: "Check", "Clear", "Solve", "Highlight", textbox Highlight. Analogicznie 
+postępujemy z przyciskami "Medium" i "Hard". Funkcjonalość przycisku "Check" polega na skorzystaniu z funkcji "check_it_well". Po tej 
+funkcjonalności mamy funkcję "check_no_empty", która sprawdza czy pola tablicy sa wypełnione. Jeśli tak to zwraca wartość 1, a jeśli nie 
+to 0. Funkcja "check_it_well" na filmiku. Potem mamy funkcjonalność przycisku "Clear", który czyści nam wszystkie te pola, które nie zostały 
+wyłączone. Funkcjonalność przycisku "Solve" korzysta z funkcji o tej samej nazwie (solve) oraz jesli "check_no_empty" zwraca 0 to pojawia się
+komunikat, że nie da się rozwiązać tego sudoku, w przeciwnym wypadku korzysta z funkcji "check_it_well" i od razu sprawdza czy rozwiązanie
+jest prawidłowe. Funkcjonalność przycisku Highlight polega na tym, że w pętli for porównujemy wartość każdego pola z wartością wpisaną do
+textboxa Hoghlight i jeśli wartości się zgadzają to podświetlą się na żółto, w przeciwnym wypadku pozostaną białe.
+
+Link do filmu: 
