@@ -1,4 +1,8 @@
 Tematem projektu było stworzenie gry logicznej jaką jest sudoku. 
 Na początku gry mamy okienko z dwoma przyciskami: How play i Start. Po wciśnięciu pierwszego wyskakuje nam instrukcja jak
-należy grać. Po naciśnięciu drugiego pokazuje nam się kolejne okno, w którym mamy do wyboru 3 poziomy gry: Easy, Medium i 
-Hard. Na każdym poziomie mamy 10 gotowych plansz, które trzeba uzupełnić zgodnie z zasadami sudoku. 
+należy grać. Po naciśnięciu drugiego pokazuje nam się kolejne okno, w którym mamy do wyboru 3 poziomy gry: Easy, Medium i Hard. 
+Na każdym poziomie mamy 10 gotowych plansz, które trzeba uzupełnić zgodnie z zasadami sudoku. Każda plansza po za polem gry składa się
+również z przycisków: Check, Clear Board, Solve Sudoku, Highlight (z polem tekstowym). Check - korzysta z funkcji (check_it_well), której 
+zadaniem jest sprawdzenie czy plansza została poprawnie rozwiązana. Clear Board - czyści całą planszę z tego, co napisał użytkownik. 
+Solve Sudoku - korzysta z funkcji, która rozwiązuje sudoku (solve). Kiedy wpiszemy liczbę od 1 do 9 w okienku tekstowym obok przycisku 
+Highlight, a następnie go klikniemy, w grze podświetlą się nam wszystkie wpisane liczby. 
