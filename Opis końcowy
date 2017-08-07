@@ -1,1 +1,4 @@
-
+Tematem projektu było stworzenie gry logicznej jaką jest sudoku. 
+Na początku gry mamy okienko z dwoma przyciskami: How play i Start. Po wciśnięciu pierwszego wyskakuje nam instrukcja jak
+należy grać. Po naciśnięciu drugiego pokazuje nam się kolejne okno, w którym mamy do wyboru 3 poziomy gry: Easy, Medium i 
+Hard. Na każdym poziomie mamy 10 gotowych plansz, które trzeba uzupełnić zgodnie z zasadami sudoku. 
