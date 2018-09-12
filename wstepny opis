@@ -1,5 +1,0 @@
-Temat projektu: gra logiczna sudoku
-Chciałabym zrobić aplikację - grę logiczną sudoku. Będzie to sudoku o standardowym wymiarze, czyli 9 kolumn i 9 wierszy. 
-Program będzie sprawdzał, czy wpisane przez użytkownika cyfry są z zakresu od 1 do 9, czy są to w góle cyfry i czy spełnione są standardowe
-zasady sudoku. 
-Jeszcze nie zdecydowałam czy zrobię to standardowo za pomocą Windows Forms Application czy w WPF'ie.
